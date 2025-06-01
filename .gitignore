@@ -1,0 +1,8 @@
+# Ignore large document data
+data/documents/
+
+# Ignore Neo4j database directory
+neo4j/
+
+# Ignore Python virtual environment
+venv/

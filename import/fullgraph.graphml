@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<key id="quantity" for="node" attr.name="quantity"/>
+<key id="comparison" for="node" attr.name="comparison"/>
+<key id="purpose" for="node" attr.name="purpose"/>
+<key id="year" for="node" attr.name="year"/>
+<key id="description" for="node" attr.name="description"/>
+<key id="focus" for="node" attr.name="focus"/>
+<key id="open-source" for="node" attr.name="open-source"/>
+<key id="availability" for="node" attr.name="availability"/>
+<key id="abbreviation" for="node" attr.name="abbreviation"/>
+<key id="tomAccuracy" for="node" attr.name="tomAccuracy"/>
+<key id="characteristic" for="node" attr.name="characteristic"/>
+<key id="labels" for="node" attr.name="labels"/>
+<key id="division" for="node" attr.name="division"/>
+<key id="number" for="node" attr.name="number"/>
+<key id="capability" for="node" attr.name="capability"/>
+<key id="examples" for="node" attr.name="examples"/>
+<key id="interpretation" for="node" attr.name="interpretation"/>
+<key id="purportedNecessaryConditions" for="node" attr.name="purportedNecessaryConditions"/>
+<key id="function" for="node" attr.name="function"/>
+<key id="publication" for="node" attr.name="publication"/>
+<key id="id" for="node" attr.name="id"/>
+<key id="tomAccuracyZero-shot" for="node" attr.name="tomAccuracyZero-shot"/>
+<key id="tomAccuracyIn-context" for="node" attr.name="tomAccuracyIn-context"/>
+<key id="mentalStates" for="node" attr.name="mentalStates"/>
+<key id="label" for="edge" attr.name="label"/>
+<graph id="G" edgedefault="directed">
+<node id="n0" labels=":Concept"><data key="labels">:Concept</data><data key="id">Urbanization</data></node>
+<node id="n1" labels=":Concept"><data key="labels">:Concept</data><data key="id">Signal Control Problem</data></node>
+<node id="n2" labels=":Document"><data key="labels">:Document</data><data key="id">Paper</data></node>
+<node id="n3" labels=":Concept"><data key="labels">:Concept</data><data key="id">Methods</data></node>
+<node id="n4" labels=":Concept"><data key="labels">:Concept</data><data key="id">Agents</data></node>
+<node id="n5" labels=":Concept"><data key="labels">:Concept</data><data key="id">Average Travel Time</data></node>
+<node id="n6" labels=":Concept"><data key="labels">:Concept</data><data key="id">Datasets</data><data key="number">2</data></node>
+<node id="n7" labels=":Concept"><data key="labels">:Concept</data><data key="id">Results</data></node>
+<node id="n8" labels=":Concept"><data key="labels">:Concept</data><data key="id">Large Language Model</data></node>
+<node id="n9" labels=":Concept"><data key="labels">:Concept</data><data key="id">Metrics</data></node>
+<node id="n10" labels=":Concept"><data key="labels">:Concept</data><data key="id">Experiments</data></node>
+<node id="n11" labels=":Concept"><data key="labels">:Concept</data><data key="id">Human Interactions</data></node>
+<node id="n12" labels=":Concept"><data key="labels">:Concept</data><data key="id">Theory Of Mind</data></node>
+<node id="n13" labels=":Concept"><data key="labels">:Concept</data><data key="id">Large Language Models</data></node>
+<node id="n14" labels=":Concept"><data key="labels">:Concept</data><data key="id">Simulation Theory</data></node>
+<node id="n15" labels=":Concept"><data key="labels">:Concept</data><data key="id">Simtom</data></node>
+<node id="n16" labels=":Concept"><data key="labels">:Concept</data><data key="id">Chain-Of-Thought</data></node>
+<node id="n17" labels=":Software"><data key="labels">:Software</data><data key="id">Beliefnest</data><data key="open-source">true</data></node>
+<node id="n18" labels=":Concept"><data key="labels">:Concept</data><data key="id">Embodied Agents</data></node>
+<node id="n19" labels=":Environment"><data key="labels">:Environment</data><data key="id">Minecraft Environment</data></node>
+<node id="n20" labels=":Task"><data key="labels">:Task</data><data key="id">False-Belief Tasks</data></node>
+<node id="n21" labels=":Concept"><data key="labels">:Concept</data><data key="id">Timetom</data><data key="purpose">improve Theory of Mind capabilities of Large Language Models</data></node>
+<node id="n22" labels=":Concept"><data key="labels">:Concept</data><data key="division">self-world beliefs and social world beliefs</data><data key="id">Temporal Belief State Chain</data></node>
+<node id="n23" labels=":Concept"><data key="labels">:Concept</data><data key="id">Tool-Belief Solver</data><data key="function">transform a character's higher-order beliefs into another character's first-order beliefs</data></node>
+<node id="n24" labels=":Concept"><data key="labels">:Concept</data><data key="id">Emotional Support Systems</data></node>
+<node id="n25" labels=":Person"><data key="labels">:Person</data><data key="id">Users</data></node>
+<node id="n26" labels=":Concept"><data key="labels">:Concept</data><data key="abbreviation">Mind2</data><data key="id">Mind-To-Mind</data></node>
+<node id="n27" labels=":Concept"><data key="labels">:Concept</data><data key="id">Cognitive Models</data></node>
+<node id="n28" labels=":Concept"><data key="labels">:Concept</data><data key="id">Theory-Of-Mind</data></node>
+<node id="n29" labels=":Concept"><data key="labels">:Concept</data><data key="id">Physiological Expected Utility</data></node>
+<node id="n30" labels=":Concept"><data key="labels">:Concept</data><data key="id">Cognitive Rationality</data></node>
+<node id="n31" labels=":Concept"><data key="labels">:Concept</data><data key="id">State-Of-The-Art Es Systems</data></node>
+<node id="n32" labels=":Concept"><data key="labels">:Concept</data><data key="id">Cognitive Model Of Epistemic Language Interpretation</data></node>
+<node id="n33" labels=":Concept"><data key="labels">:Concept</data><data key="id">Bayesian Inferences</data></node>
+<node id="n34" labels=":Concept"><data key="labels">:Concept</data><data key="id">Language-Augmented Bayesian Theory-Of-Mind (Labtom)</data></node>
+<node id="n35" labels=":Concept"><data key="labels">:Concept</data><data key="id">Natural Language</data></node>
+<node id="n36" labels=":Concept"><data key="labels">:Concept</data><data key="id">Epistemic Language-Of-Thought</data></node>
+<node id="n37" labels=":Concept"><data key="labels">:Concept</data><data key="id">Grammar-Constrained Llm Decoding</data></node>
+<node id="n38" labels=":Concept"><data key="labels">:Concept</data><data key="id">Generative Model Of Rational Action And Perception</data></node>
+<node id="n39" labels=":Concept"><data key="labels">:Concept</data><data key="id">Graded Plausibility Judgments Of Epistemic Claims</data></node>
+<node id="n40" labels=":Event"><data key="labels">:Event</data><data key="id">Experiment</data></node>
+<node id="n41" labels=":Person"><data key="labels">:Person</data><data key="id">Participants</data></node>
+<node id="n42" labels=":Person"><data key="labels">:Person</data><data key="id">Agent</data></node>
+<node id="n43" labels=":Object"><data key="labels">:Object</data><data key="id">Maze</data></node>
+<node id="n44" labels=":Object"><data key="labels">:Object</data><data key="id">Keys</data></node>
+<node id="n45" labels=":Object"><data key="labels">:Object</data><data key="id">Boxes</data></node>
+<node id="n46" labels=":Concept"><data key="labels">:Concept</data><data key="id">Goal</data></node>
+<node id="n47" labels=":Concept"><data key="labels">:Concept</data><data key="id">Sentences About The Agent'S Beliefs</data></node>
+<node id="n48" labels=":Concept"><data key="labels">:Concept</data><data key="id">Multimodal Llms (Gpt-4O, Gemini Pro)</data></node>
+<node id="n49" labels=":Concept"><data key="labels">:Concept</data><data key="id">Ablated Models</data></node>
+<node id="n50" labels=":Concept"><data key="labels">:Concept</data><data key="id">Human Judgments</data></node>
+<node id="n51" labels=":Concept"><data key="labels">:Concept</data><data key="id">Modal Language</data></node>
+<node id="n52" labels=":Concept"><data key="labels">:Concept</data><data key="id">Uncertainty Expressions</data></node>
+<node id="n53" labels=":Concept"><data key="labels">:Concept</data><data key="id">Knowledge Claims</data></node>
+<node id="n54" labels=":Concept"><data key="labels">:Concept</data><data key="id">Likelihood Comparisons</data></node>
+<node id="n55" labels=":Concept"><data key="labels">:Concept</data><data key="id">Attributions Of False Belief</data></node>
+<node id="n56" labels=":Entity"><data key="labels">:Entity</data><data key="id">Humans</data></node>
+<node id="n57" labels=":Concept"><data key="labels">:Concept</data><data key="id">Daily Conversations</data></node>
+<node id="n58" labels=":Entity"><data key="labels">:Entity</data><data key="id">Large Generative Language Models</data></node>
+<node id="n59" labels=":Concept"><data key="labels">:Concept</data><data key="id">Minddial</data></node>
+<node id="n60" labels=":Concept"><data key="labels">:Concept</data><data key="id">Mind Module</data></node>
+<node id="n61" labels=":Concept"><data key="labels">:Concept</data><data key="id">Prompting And Fine-Tuning-Based Models</data></node>
+<node id="n62" labels=":Event"><data key="labels">:Event</data><data key="id">Experiments</data></node>
+<node id="n63" labels=":Event"><data key="labels">:Event</data><data key="id">Ablation Study</data></node>
+<node id="n64" labels=":Concept"><data key="labels">:Concept</data><data key="id">Mind Modeling</data></node>
+<node id="n65" labels=":Concept"><data key="labels">:Concept</data><data key="id">Three-Level Belief Design</data></node>
+<node id="n66" labels=":Concept"><data key="labels">:Concept</data><data key="id">Llms</data></node>
+<node id="n67" labels=":Concept"><data key="labels">:Concept</data><data key="id">Natural Language Reasoning</data></node>
+<node id="n68" labels=":Concept"><data key="labels">:Concept</data><data key="id">Human Performance</data></node>
+<node id="n69" labels=":Concept"><data key="labels">:Concept</data><data key="id">Classification Tasks</data></node>
+<node id="n70" labels=":Concept"><data key="labels">:Concept</data><data key="id">Social-Cognitive Reasoning</data></node>
+<node id="n71" labels=":Concept"><data key="labels">:Concept</data><data key="id">Prompting</data></node>
+<node id="n72" labels=":Concept"><data key="labels">:Concept</data><data key="id">Specific Llms</data></node>
+<node id="n73" labels=":Concept"><data key="labels">:Concept</data><data key="id">Role-Playing Prompting</data></node>
+<node id="n74" labels=":Concept"><data key="labels">:Concept</data><data key="id">Theory-Of-Mind (Tom) Reasoning</data></node>
+<node id="n75" labels=":Concept"><data key="labels">:Concept</data><data key="id">Psychological Theory</data></node>
+<node id="n76" labels=":Concept"><data key="labels">:Concept</data><data key="id">Reasoning Tasks</data></node>
+<node id="n77" labels=":Concept"><data key="labels">:Concept</data><data key="id">Socially-Motivated Prompting</data></node>
+<node id="n78" labels=":Concept"><data key="labels">:Concept</data><data key="id">Prompt Engineering</data></node>
+<node id="n79" labels=":Concept"><data key="labels">:Concept</data><data key="id">Role-Play</data></node>
+<node id="n80" labels=":Concept"><data key="labels">:Concept</data><data key="id">Personas</data></node>
+<node id="n81" labels=":Concept"><data key="labels">:Concept</data><data key="id">Errors</data></node>
+<node id="n82" labels=":Concept"><data key="labels">:Concept</data><data key="id">Differences</data></node>
+<node id="n83" labels=":Concept"><data key="labels">:Concept</data><data key="id">Research</data></node>
+<node id="n84" labels=":Concept"><data key="labels">:Concept</data><data key="id">Performance Differences</data></node>
+<node id="n85" labels=":Concept"><data key="labels">:Concept</data><data key="id">Models</data></node>
+<node id="n86" labels=":Person"><data key="labels">:Person</data><data key="id">Computer Scientists</data></node>
+<node id="n87" labels=":Concept"><data key="labels">:Concept</data><data key="id">Belief</data></node>
+<node id="n88" labels=":Concept"><data key="labels">:Concept</data><data key="id">Decision Theory</data></node>
+<node id="n89" labels=":Concept"><data key="labels">:Concept</data><data key="id">Formal Epistemology</data></node>
+<node id="n90" labels=":Concept"><data key="labels">:Concept</data><data key="id">Philosophy</data></node>
+<node id="n91" labels=":Concept"><data key="labels">:Concept</data><data key="id">Machine Learning</data></node>
+<node id="n92" labels=":Concept"><data key="labels">:Concept</data><data key="id">Accuracy</data></node>
+<node id="n93" labels=":Concept"><data key="labels">:Concept</data><data key="id">Coherence</data></node>
+<node id="n94" labels=":Concept"><data key="labels">:Concept</data><data key="id">Uniformity</data></node>
+<node id="n95" labels=":Concept"><data key="labels">:Concept</data><data key="id">Use</data></node>
+<node id="n96" labels=":Entity"><data key="labels">:Entity</data><data key="id">Ai Systems</data></node>
+<node id="n97" labels=":Entity"><data key="labels">:Entity</data><data key="id">Nlp Systems</data></node>
+<node id="n98" labels=":Concept"><data key="labels">:Concept</data><data key="id">Coke</data></node>
+<node id="n99" labels=":Concept"><data key="labels">:Concept</data><data key="id">Colm</data></node>
+<node id="n100" labels=":Concept"><data key="labels">:Concept</data><data key="quantity">45000+</data><data key="id">Cognitive Chains</data></node>
+<node id="n101" labels=":Concept"><data key="labels">:Concept</data><data key="id">Instruction-Tuned Llms</data></node>
+<node id="n102" labels=":Concept"><data key="labels">:Concept</data><data key="id">Base-Llms</data></node>
+<node id="n103" labels=":Concept"><data key="labels">:Concept</data><data key="id">Gpt Family</data></node>
+<node id="n104" labels=":Person"><data key="labels">:Person</data><data key="id">Children Aged 7-10</data></node>
+<node id="n105" labels=":Concept"><data key="labels">:Concept</data><data key="id">Human Social Interaction</data></node>
+<node id="n106" labels=":Concept"><data key="labels">:Concept</data><data key="id">Human Sensory System</data></node>
+<node id="n107" labels=":Field"><data key="labels">:Field</data><data key="id">Psychology</data></node>
+<node id="n108" labels=":Field"><data key="labels">:Field</data><data key="id">Machine Learning</data></node>
+<node id="n109" labels=":Field"><data key="labels">:Field</data><data key="id">Robotics</data></node>
+<node id="n110" labels=":Model"><data key="labels">:Model</data><data key="id">Feed-Forward Deep Learning Model</data></node>
+<node id="n111" labels=":Technology"><data key="labels">:Technology</data><data key="id">Social Robots</data></node>
+<node id="n112" labels=":Concept"><data key="labels">:Concept</data><data key="id">Human Cognition</data></node>
+<node id="n113" labels=":Concept"><data key="labels">:Concept</data><data key="id">Individuals</data></node>
+<node id="n114" labels=":Concept"><data key="labels">:Concept</data><data key="id">Beliefs</data></node>
+<node id="n115" labels=":Concept"><data key="labels">:Concept</data><data key="id">Intentions</data></node>
+<node id="n116" labels=":Person"><data key="labels">:Person</data><data key="id">Engineers</data></node>
+<node id="n117" labels=":Concept"><data key="labels">:Concept</data><data key="id">Artificial Intelligence</data></node>
+<node id="n118" labels=":Concept"><data key="labels">:Concept</data><data key="id">Model</data></node>
+<node id="n119" labels=":Concept"><data key="labels">:Concept</data><data key="id">Traditional Tom Tests</data></node>
+<node id="n120" labels=":Concept"><data key="labels">:Concept</data><data key="id">3-Year-Old Children</data></node>
+<node id="n121" labels=":Concept"><data key="labels">:Concept</data><data key="id">Ai Systems</data></node>
+<node id="n122" labels=":Concept"><data key="labels">:Concept</data><data key="id">Guilford'S Structure Of Intellect</data></node>
+<node id="n123" labels=":Concept"><data key="labels">:Concept</data><data key="id">Cognitive Prompt Engineering</data></node>
+<node id="n124" labels=":Concept"><data key="labels">:Concept</data><data key="id">Cognitive Operations</data></node>
+<node id="n125" labels=":Concept"><data key="labels">:Concept</data><data key="id">Pattern Recognition</data></node>
+<node id="n126" labels=":Concept"><data key="labels">:Concept</data><data key="id">Memory Retrieval</data></node>
+<node id="n127" labels=":Concept"><data key="labels">:Concept</data><data key="id">Evaluation</data></node>
+<node id="n128" labels=":Document"><data key="labels">:Document</data><data key="id">Position Paper</data></node>
+<node id="n129" labels=":Concept"><data key="labels">:Concept</data><data key="id">Novel Cognitive Prompting Approach</data></node>
+<node id="n130" labels=":Technology"><data key="labels">:Technology</data><data key="year">2023</data><data key="id">Large Language Models</data></node>
+<node id="n131" labels=":Concept"><data key="labels">:Concept</data><data key="id">Complex Reasoning</data></node>
+<node id="n132" labels=":Concept"><data key="labels">:Concept</data><data key="id">Theory-Of-Mind Tasks</data></node>
+<node id="n133" labels=":Technology"><data key="labels">:Technology</data><data key="tomAccuracyZero-shot">80%</data><data key="tomAccuracyIn-context">100%</data><data key="id">Gpt-4</data></node>
+<node id="n134" labels=":Technology"><data key="labels">:Technology</data><data key="id">Gpt-3.5 Variants</data></node>
+<node id="n135" labels=":Technology"><data key="labels">:Technology</data><data key="id">Davinci-2</data></node>
+<node id="n136" labels=":Technology"><data key="labels">:Technology</data><data key="id">Davinci-3</data></node>
+<node id="n137" labels=":Technology"><data key="labels">:Technology</data><data key="id">Gpt-3.5-Turbo</data></node>
+<node id="n138" labels=":Methodology"><data key="labels">:Methodology</data><data key="id">Reinforcement Learning From Human Feedback</data></node>
+<node id="n139" labels=":Person"><data key="labels">:Person</data><data key="tomAccuracy">87%</data><data key="id">Human</data></node>
+<node id="n140" labels=":Concept"><data key="labels">:Concept</data><data key="id">Mental States</data></node>
+<node id="n141" labels=":Concept"><data key="labels">:Concept</data><data key="id">Desires</data></node>
+<node id="n142" labels=":Concept"><data key="labels">:Concept</data><data key="id">Behavior</data></node>
+<node id="n143" labels=":Concept"><data key="labels">:Concept</data><data key="id">Interpersonal Communication</data></node>
+<node id="n144" labels=":Concept"><data key="labels">:Concept</data><data key="id">Team Collaboration</data></node>
+<node id="n145" labels=":Concept"><data key="labels">:Concept</data><data key="id">Trust-Aware Robot Policy</data></node>
+<node id="n146" labels=":Concept"><data key="labels">:Concept</data><data key="id">Multiagent Setting</data></node>
+<node id="n147" labels=":Entity"><data key="labels">:Entity</data><data key="id">Human</data></node>
+<node id="n148" labels=":Entity"><data key="labels">:Entity</data><data key="id">Robot</data></node>
+<node id="n149" labels=":Entity"><data key="labels">:Entity</data><data key="id">Human Opponent</data></node>
+<node id="n150" labels=":Concept"><data key="labels">:Concept</data><data key="id">Team Performance</data></node>
+<node id="n151" labels=":Concept"><data key="labels">:Concept</data><data key="id">Reverse Psychology</data></node>
+<node id="n152" labels=":Concept"><data key="labels">:Concept</data><data key="id">Trust Maintenance</data></node>
+<node id="n153" labels=":Concept"><data key="labels">:Concept</data><data key="id">Trust</data></node>
+<node id="n154" labels=":Concept"><data key="labels">:Concept</data><data key="id">Deceptive Behavior</data></node>
+<node id="n155" labels=":Concept"><data key="labels">:Concept</data><data key="id">Robot Theory Of Mind Model</data></node>
+<node id="n156" labels=":Concept"><data key="labels">:Concept</data><data key="id">Trust Beliefs</data></node>
+<node id="n157" labels=":Concept"><data key="labels">:Concept</data><data key="id">True Belief</data></node>
+<node id="n158" labels=":Concept"><data key="labels">:Concept</data><data key="id">False Belief</data></node>
+<node id="n159" labels=":Concept"><data key="labels">:Concept</data><data key="id">Dynamic Trust-Aware Reward Function</data></node>
+<node id="n160" labels=":Concept"><data key="labels">:Concept</data><data key="id">Robot Policy Learning</data></node>
+<node id="n161" labels=":Concept"><data key="labels">:Concept</data><data key="id">Human-Robot Trust</data></node>
+<node id="n162" labels=":Concept"><data key="labels">:Concept</data><data key="id">Multiagent Interaction Settings</data></node>
+<node id="n163" labels=":Concept"><data key="labels">:Concept</data><data key="id">Robot Tom-Based Robot Policy</data></node>
+<node id="n164" labels=":Concept"><data key="labels">:Concept</data><data key="description">A Theory of Mind (ToM) neural network for predicting beliefs and their dynamics during human social interactions from multimodal input.</data><data key="id">Mtomnet</data></node>
+<node id="n165" labels=":Concept"><data key="labels">:Concept</data><data key="description">Key for effective nonverbal human communication and collaboration.</data><data key="id">Tom</data></node>
+<node id="n166" labels=":Concept"><data key="labels">:Concept</data><data key="description">Separate network for each person encoding contextual and person-specific cues.</data><data key="id">Mindnet</data></node>
+<node id="n167" labels=":Concept"><data key="labels">:Concept</data><data key="description">Prior research inspiration for MToMnet.</data><data key="id">Social Cognition</data></node>
+<node id="n168" labels=":Concept"><data key="labels">:Concept</data><data key="description">Prior research inspiration for MToMnet.</data><data key="id">Computational Tom</data></node>
+<node id="n169" labels=":Dataset"><data key="labels">:Dataset</data><data key="id">Belief Prediction Dataset</data><data key="focus">Belief prediction.</data></node>
+<node id="n170" labels=":Dataset"><data key="labels">:Dataset</data><data key="id">Belief Dynamics Prediction Dataset</data><data key="focus">Belief dynamics prediction.</data></node>
+<node id="n171" labels=":Concept"><data key="labels">:Concept</data><data key="description">a plug-and-play approach to reason about the belief states of multiple characters in reading comprehension tasks via explicit symbolic representation</data><data key="id">Symbolictom</data></node>
+<node id="n172" labels=":Concept"><data key="labels">:Concept</data><data key="id">Tomi Benchmark</data><data key="publication">Le et al., 2019</data></node>
+<node id="n173" labels=":Concept"><data key="labels">:Concept</data><data key="id">Science</data></node>
+<node id="n174" labels=":Concept"><data key="labels">:Concept</data><data key="id">Religion</data></node>
+<node id="n175" labels=":Concept"><data key="labels">:Concept</data><data key="id">Everyday Life</data></node>
+<node id="n176" labels=":Concept"><data key="labels">:Concept</data><data key="id">Causal Cognition</data></node>
+<node id="n177" labels=":Concept"><data key="labels">:Concept</data><data key="id">Human Mind</data></node>
+<node id="n178" labels=":Concept"><data key="labels">:Concept</data><data key="id">Artificial Mind</data></node>
+<node id="n179" labels=":Concept"><data key="labels">:Concept</data><data key="id">Artificial Agents</data></node>
+<node id="n180" labels=":Concept"><data key="labels">:Concept</data><data key="id">Malicious Artificial Agents</data></node>
+<node id="n181" labels=":Concept"><data key="labels">:Concept</data><data key="id">Benevolent Artificial Agents</data></node>
+<node id="n182" labels=":Concept"><data key="labels">:Concept</data><data key="id">Cognitive Biases</data></node>
+<node id="n183" labels=":Concept"><data key="labels">:Concept</data><data key="id">Causal Models</data></node>
+<node id="n184" labels=":Concept"><data key="labels">:Concept</data><data key="id">Causes</data></node>
+<node id="n185" labels=":Concept"><data key="labels">:Concept</data><data key="id">Biased</data></node>
+<node id="n186" labels=":Concept"><data key="labels">:Concept</data><data key="id">Subjectivity</data></node>
+<node id="n187" labels=":Concept"><data key="labels">:Concept</data><data key="id">Objective</data></node>
+<node id="n188" labels=":Concept"><data key="labels">:Concept</data><data key="id">Artificial Causal Beliefs</data></node>
+<node id="n189" labels=":Concept"><data key="labels">:Concept</data><data key="id">Cognitive Distortions</data></node>
+<node id="n190" labels=":Concept"><data key="labels">:Concept</data><data key="id">Vulnerability</data></node>
+<node id="n191" labels=":Concept"><data key="labels">:Concept</data><data key="id">Self-Deception</data></node>
+<node id="n192" labels=":Concept"><data key="labels">:Concept</data><data key="id">Ai</data></node>
+<node id="n193" labels=":Concept"><data key="labels">:Concept</data><data key="id">Bdiqa</data></node>
+<node id="n194" labels=":Concept"><data key="labels">:Concept</data><data key="id">Videoqa</data></node>
+<node id="n195" labels=":Concept"><data key="labels">:Concept</data><data key="id">Belief, Desire And Intention Reasoning</data></node>
+<node id="n196" labels=":Concept"><data key="labels">:Concept</data><data key="id">Cognitive Reasoning Tasks</data></node>
+<node id="n197" labels=":Concept"><data key="labels">:Concept</data><data key="id">Pre-Trained Models</data></node>
+<node id="n198" labels=":Concept"><data key="labels">:Concept</data><data key="id">Conscious Mind</data></node>
+<node id="n199" labels=":Concept"><data key="labels">:Concept</data><data key="id">Dorsal Medial Prefrontal Cortex Neurons</data></node>
+<node id="n200" labels=":Concept"><data key="labels">:Concept</data><data key="id">Hidden Embeddings</data></node>
+<node id="n201" labels=":Concept"><data key="labels">:Concept</data><data key="id">Artificial Neurons</data></node>
+<node id="n202" labels=":Concept"><data key="labels">:Concept</data><data key="id">Tom Tasks</data></node>
+<node id="n203" labels=":Concept"><data key="labels">:Concept</data><data key="id">Model Size</data></node>
+<node id="n204" labels=":Concept"><data key="labels">:Concept</data><data key="id">Population Level</data></node>
+<node id="n205" labels=":Concept"><data key="labels">:Concept</data><data key="id">Human Brain</data></node>
+<node id="n206" labels=":Concept"><data key="labels">:Concept</data><data key="id">Human Tom Capabilities</data></node>
+<node id="n207" labels=":Concept"><data key="labels">:Concept</data><data key="id">Embeddings</data></node>
+<node id="n208" labels=":Concept"><data key="labels">:Concept</data><data key="id">Cognitive Architectures</data></node>
+<node id="n209" labels=":Concept"><data key="labels">:Concept</data><data key="id">Modular Approach</data></node>
+<node id="n210" labels=":Concept"><data key="labels">:Concept</data><data key="id">Agency Approach</data></node>
+<node id="n211" labels=":Concept"><data key="labels">:Concept</data><data key="id">Neuro-Symbolic Approach</data></node>
+<node id="n212" labels=":Concept"><data key="labels">:Concept</data><data key="id">Chain-Of-Thought Prompting</data></node>
+<node id="n213" labels=":Concept"><data key="labels">:Concept</data><data key="id">Augmented Llms</data></node>
+<node id="n214" labels=":Concept"><data key="labels">:Concept</data><data key="id">Common Model Of Cognition</data></node>
+<node id="n215" labels=":Concept"><data key="labels">:Concept</data><data key="id">Simulation Theory Of Cognition</data></node>
+<node id="n216" labels=":Concept"><data key="labels">:Concept</data><data key="id">Society Of Mind Theory</data></node>
+<node id="n217" labels=":Concept"><data key="labels">:Concept</data><data key="id">Lida Cognitive Architecture</data></node>
+<node id="n218" labels=":Concept"><data key="labels">:Concept</data><data key="id">Clarion Cognitive Architecture</data></node>
+<node id="n219" labels=":Concept"><data key="labels">:Concept</data><data key="id">Humans</data></node>
+<node id="n220" labels=":Concept"><data key="labels">:Concept</data><data key="id">Nonverbal Communication Signals</data></node>
+<node id="n221" labels=":Concept"><data key="labels">:Concept</data><data key="id">Social Interactions</data></node>
+<node id="n222" labels=":Concept"><data key="labels">:Concept</data><data key="id">Social Cognitive Ability</data></node>
+<node id="n223" labels=":Concept"><data key="labels">:Concept</data><data key="id">Human-Robot Interaction</data></node>
+<node id="n224" labels=":Concept"><data key="labels">:Concept</data><data key="id">Theory Of Mind (Tom)</data></node>
+<node id="n225" labels=":Concept"><data key="labels">:Concept</data><data key="id">Object-Context Relations</data></node>
+<node id="n226" labels=":Concept"><data key="labels">:Concept</data><data key="id">Autonomous Systems</data></node>
+<node id="n227" labels=":Concept"><data key="labels">:Concept</data><data key="id">Verbal Communication</data></node>
+<node id="n228" labels=":Concept"><data key="labels">:Concept</data><data key="id">Multimodal Video Dataset</data></node>
+<node id="n229" labels=":Concept"><data key="labels">:Concept</data><data key="id">Artificial Intelligence (Ai) Systems</data></node>
+<node id="n230" labels=":Concept"><data key="labels">:Concept</data><data key="id">Human Belief States</data></node>
+<node id="n231" labels=":Concept"><data key="labels">:Concept</data><data key="id">Object-Context Scenario</data></node>
+<node id="n232" labels=":Concept"><data key="labels">:Concept</data><data key="id">Deep Learning Models</data></node>
+<node id="n233" labels=":Concept"><data key="labels">:Concept</data><data key="id">Input Modalities</data></node>
+<node id="n234" labels=":Concept"><data key="labels">:Concept</data><data key="id">Baseline Models</data></node>
+<node id="n235" labels=":Concept"><data key="labels">:Concept</data><data key="id">Hi-Tom</data></node>
+<node id="n236" labels=":Concept"><data key="labels">:Concept</data><data key="id">Nlp</data></node>
+<node id="n237" labels=":Concept"><data key="labels">:Concept</data><data key="id">Intelligence</data></node>
+<node id="n238" labels=":Concept"><data key="labels">:Concept</data><data key="id">Language Understanding</data></node>
+<node id="n239" labels=":Concept"><data key="labels">:Concept</data><data key="id">Cognitive Processes</data></node>
+<node id="n240" labels=":Concept"><data key="labels">:Concept</data><data key="id">Higher-Order Theory Of Mind Tasks</data></node>
+<node id="n241" labels=":Concept"><data key="labels">:Concept</data><data key="id">Failure Cases</data></node>
+<node id="n242" labels=":Concept"><data key="labels">:Concept</data><data key="id">Findings</data></node>
+<node id="n243" labels=":Concept"><data key="labels">:Concept</data><data key="id">Social Reasoning</data></node>
+<node id="n244" labels=":Concept"><data key="labels">:Concept</data><data key="id">Machine Learning Approaches To Tom</data></node>
+<node id="n245" labels=":Agent"><data key="labels">:Agent</data><data key="id">Observer</data></node>
+<node id="n246" labels=":Model"><data key="labels">:Model</data><data key="id">Tommy</data></node>
+<node id="n247" labels=":Concept"><data key="labels">:Concept</data><data key="id">Neural Memory Mechanisms</data></node>
+<node id="n248" labels=":Concept"><data key="labels">:Concept</data><data key="id">Hierarchical Attention</data></node>
+<node id="n249" labels=":Experiment"><data key="labels">:Experiment</data><data key="id">New Suite Of Experiments</data></node>
+<node id="n250" labels=":Method"><data key="labels">:Method</data><data key="id">Virtual World Cognitive Science</data></node>
+<node id="n251" labels=":Concept"><data key="labels">:Concept</data><data key="id">Philosophical Motivations</data></node>
+<node id="n252" labels=":Concept"><data key="labels">:Concept</data><data key="id">Virtual Embodied Agents</data></node>
+<node id="n253" labels=":Concept"><data key="labels">:Concept</data><data key="id">Virtual Worlds</data></node>
+<node id="n254" labels=":Field"><data key="labels">:Field</data><data key="id">Cognitive Science</data></node>
+<node id="n255" labels=":Concept"><data key="labels">:Concept</data><data key="id">Mental Representation</data></node>
+<node id="n256" labels=":Concept"><data key="labels">:Concept</data><data key="id">Linguistic Representation</data></node>
+<node id="n257" labels=":Concept"><data key="labels">:Concept</data><data key="id">Computational Modeling</data></node>
+<node id="n258" labels=":Concept"><data key="labels">:Concept</data><data key="id">Philosophical Thought Experiments</data></node>
+<node id="n259" labels=":Concept"><data key="labels">:Concept</data><data key="id">Terminology</data></node>
+<node id="n260" labels=":Concept"><data key="labels">:Concept</data><data key="id">Dynamical Relationships</data></node>
+<node id="n261" labels=":Concept"><data key="labels">:Concept</data><data key="id">Entities In Minds</data></node>
+<node id="n262" labels=":Concept"><data key="labels">:Concept</data><data key="id">Entities In An Environment</data></node>
+<node id="n263" labels=":Concept"><data key="labels">:Concept</data><data key="id">Belief Tokens</data></node>
+<node id="n264" labels=":Concept"><data key="labels">:Concept</data><data key="id">Concept Tokens</data></node>
+<node id="n265" labels=":Concept"><data key="labels">:Concept</data><data key="id">Individual Cognizers' Minds</data></node>
+<node id="n266" labels=":Concept"><data key="labels">:Concept</data><data key="id">Large Pre-Trained Model</data></node>
+<node id="n267" labels=":Concept"><data key="labels">:Concept</data><data key="id">Task-Specific Hints</data></node>
+<node id="n268" labels=":Concept"><data key="labels">:Concept</data><data key="id">Prompts</data></node>
+<node id="n269" labels=":Concept"><data key="labels">:Concept</data><data key="id">Natural Language Processing</data></node>
+<node id="n270" labels=":Concept"><data key="labels">:Concept</data><data key="id">Vision-Language Modeling</data></node>
+<node id="n271" labels=":Concept"><data key="labels">:Concept</data><data key="id">Multimodal-To-Text Generation Models</data></node>
+<node id="n272" labels=":Concept"><data key="labels">:Concept</data><data key="id">Image-Text Matching Models</data></node>
+<node id="n273" labels=":Concept"><data key="labels">:Concept</data><data key="id">Text-To-Image Generation Models</data></node>
+<node id="n274" labels=":Concept"><data key="labels">:Concept</data><data key="id">Flamingo</data></node>
+<node id="n275" labels=":Concept"><data key="labels">:Concept</data><data key="id">Clip</data></node>
+<node id="n276" labels=":Concept"><data key="labels">:Concept</data><data key="id">Stable Diffusion</data></node>
+<node id="n277" labels=":Concept"><data key="labels">:Concept</data><data key="id">Designing Effective Prompts</data></node>
+<node id="n278" labels=":Concept"><data key="labels">:Concept</data><data key="id">Automated Prompt Engineering</data></node>
+<node id="n279" labels=":Concept"><data key="labels">:Concept</data><data key="id">Optimal Learning Framework</data></node>
+<node id="n280" labels=":Concept"><data key="labels">:Concept</data><data key="id">Feature-Based Method</data></node>
+<node id="n281" labels=":Concept"><data key="labels">:Concept</data><data key="id">Bayesian Regression</data></node>
+<node id="n282" labels=":Concept"><data key="labels">:Concept</data><data key="id">Knowledge-Gradient (Kg) Policy</data></node>
+<node id="n283" labels=":Concept"><data key="labels">:Concept</data><data key="id">Mixed-Integer Second-Order Cone Optimization Problems</data></node>
+<node id="n284" labels=":Concept"><data key="labels">:Concept</data><data key="id">Instruction Induction Tasks</data></node>
+<node id="n285" labels=":Concept"><data key="labels">:Concept</data><data key="id">Prompt Evaluation</data></node>
+<node id="n286" labels=":Concept"><data key="labels">:Concept</data><data key="id">Whole Hog Thesis</data></node>
+<node id="n287" labels=":Concept"><data key="labels">:Concept</data><data key="id">Understanding</data></node>
+<node id="n288" labels=":Concept"><data key="labels">:Concept</data><data key="id">Knowledge</data></node>
+<node id="n289" labels=":Concept"><data key="labels">:Concept</data><data key="id">Holistic Network Assumptions</data></node>
+<node id="n290" labels=":Concept"><data key="labels">:Concept</data><data key="examples">answering questions, making suggestions</data><data key="id">Llm Behavior</data></node>
+<node id="n291" labels=":Concept"><data key="labels">:Concept</data><data key="examples">hallucinations, planning/reasoning errors</data><data key="id">Llm Failures</data></node>
+<node id="n292" labels=":Concept"><data key="labels">:Concept</data><data key="id">Games Of Lacks</data></node>
+<node id="n293" labels=":Concept"><data key="labels">:Concept</data><data key="id">Cognition</data><data key="purportedNecessaryConditions">semantic grounding, embodiment, justification, intrinsic intentionality</data></node>
+<node id="n294" labels=":Concept"><data key="labels">:Concept</data><data key="id">Human Capacities</data></node>
+<node id="n295" labels=":Concept"><data key="labels">:Concept</data><data key="id">Consciousness</data></node>
+<node id="n296" labels=":Concept"><data key="labels">:Concept</data><data key="id">Alien Contents</data></node>
+<node id="n297" labels=":Concept"><data key="labels">:Concept</data><data key="id">Human Conceptual Schemes</data></node>
+<node id="n298" labels=":Concept"><data key="labels">:Concept</data><data key="id">Mental Capacities</data></node>
+<node id="n299" labels=":Concept"><data key="labels">:Concept</data><data key="id">Action</data></node>
+<node id="n300" labels=":Concept"><data key="labels">:Concept</data><data key="id">Agency</data></node>
+<node id="n301" labels=":Concept"><data key="labels">:Concept</data><data key="id">Interaction With Large Language Models</data></node>
+<node id="n302" labels=":Concept"><data key="labels">:Concept</data><data key="id">Prompt</data></node>
+<node id="n303" labels=":Concept"><data key="labels">:Concept</data><data key="id">Natural Language Instruction</data></node>
+<node id="n304" labels=":Person"><data key="labels">:Person</data><data key="id">Non-Experts</data></node>
+<node id="n305" labels=":Task"><data key="labels">:Task</data><data key="id">Complex Tasks</data></node>
+<node id="n306" labels=":Concept"><data key="labels">:Concept</data><data key="id">Prompt Design</data></node>
+<node id="n307" labels=":Concept"><data key="labels">:Concept</data><data key="id">Effective Prompts</data></node>
+<node id="n308" labels=":Concept"><data key="labels">:Concept</data><data key="id">Skill And Knowledge</data></node>
+<node id="n309" labels=":Concept"><data key="labels">:Concept</data><data key="id">Iteration</data></node>
+<node id="n310" labels=":Concept"><data key="labels">:Concept</data><data key="id">Model Behavior</data></node>
+<node id="n311" labels=":Concept"><data key="labels">:Concept</data><data key="id">Particular Goal</data></node>
+<node id="n312" labels=":Concept"><data key="labels">:Concept</data><data key="id">Prompt Editing Behavior</data></node>
+<node id="n313" labels=":Concept"><data key="labels">:Concept</data><data key="id">Design Implications</data></node>
+<node id="n314" labels=":Concept"><data key="labels">:Concept</data><data key="id">Future Directions</data></node>
+<node id="n315" labels=":Concept"><data key="labels">:Concept</data><data key="id">Natural Language Prompts</data></node>
+<node id="n316" labels=":Method"><data key="labels">:Method</data><data key="id">Zero-Shot Prompting</data></node>
+<node id="n317" labels=":Method"><data key="labels">:Method</data><data key="id">Constrained Chain-Of-Tom</data></node>
+<node id="n318" labels=":Concept"><data key="labels">:Concept</data><data key="id">Domain Knowledge</data></node>
+<node id="n319" labels=":Concept"><data key="labels">:Concept</data><data key="id">Causal Relations</data></node>
+<node id="n320" labels=":Concept"><data key="labels">:Concept</data><data key="id">Narratives</data></node>
+<node id="n321" labels=":Concept"><data key="labels">:Concept</data><data key="id">Non-Narrative Contexts</data></node>
+<node id="n322" labels=":Concept"><data key="labels">:Concept</data><data key="id">Conversations</data></node>
+<node id="n323" labels=":Resource"><data key="labels">:Resource</data><data key="id">Code</data><data key="availability">public</data></node>
+<node id="n324" labels=":Person"><data key="labels">:Person</data><data key="id">Humans</data></node>
+<node id="n325" labels=":Concept"><data key="labels">:Concept</data><data key="id">Bayesian Theory-Of-Mind</data></node>
+<node id="n326" labels=":Concept"><data key="labels">:Concept</data><data key="id">Epistemic Logic</data></node>
+<node id="n327" labels=":Concept"><data key="labels">:Concept</data><data key="id">Doors-And-Keys Gridworld Puzzle</data></node>
+<node id="n328" labels=":Concept"><data key="labels">:Concept</data><data key="id">Instrumental Reasoning</data></node>
+<node id="n329" labels=":Concept"><data key="labels">:Concept</data><data key="id">Non-Mentalizing Baselines</data></node>
+<node id="n330" labels=":Concept"><data key="labels">:Concept</data><data key="id">Pure Logical Deduction</data></node>
+<node id="n331" labels=":Technology"><data key="labels">:Technology</data><data key="id">Chatgpt</data></node>
+<node id="n332" labels=":Technology"><data key="labels">:Technology</data><data key="id">Prompt Engineering</data></node>
+<node id="n333" labels=":Organization"><data key="labels">:Organization</data><data key="id">Companies</data></node>
+<node id="n334" labels=":Person"><data key="labels">:Person</data><data key="id">Expert Prompt Engineers</data></node>
+<node id="n335" labels=":Resource"><data key="labels">:Resource</data><data key="id">Educational Resources</data></node>
+<node id="n336" labels=":Technology"><data key="labels">:Technology</data><data key="id">Prompt Stealing Attacks</data></node>
+<node id="n337" labels=":Technology"><data key="labels">:Technology</data><data key="id">Parameter Extractor</data></node>
+<node id="n338" labels=":Technology"><data key="labels">:Technology</data><data key="id">Prompt Reconstruction</data></node>
+<node id="n339" labels=":Technology"><data key="labels">:Technology</data><data key="id">Direct Prompt</data></node>
+<node id="n340" labels=":Technology"><data key="labels">:Technology</data><data key="id">Role-Based Prompt</data></node>
+<node id="n341" labels=":Technology"><data key="labels">:Technology</data><data key="id">In-Context Prompt</data></node>
+<node id="n342" labels=":Concept"><data key="labels">:Concept</data><data key="id">Confusing Feedback</data></node>
+<node id="n343" labels=":Concept"><data key="labels">:Concept</data><data key="id">Erroneous Beliefs</data></node>
+<node id="n344" labels=":Person"><data key="labels">:Person</data><data key="id">Teacher</data></node>
+<node id="n345" labels=":Person"><data key="labels">:Person</data><data key="id">Learner</data></node>
+<node id="n346" labels=":Concept"><data key="labels">:Concept</data><data key="id">Cognitive Burden</data></node>
+<node id="n347" labels=":Concept"><data key="labels">:Concept</data><data key="id">Learning Objective</data></node>
+<node id="n348" labels=":Concept"><data key="labels">:Concept</data><data key="id">Second-Order Theory Of Mind</data></node>
+<node id="n349" labels=":Concept"><data key="labels">:Concept</data><data key="id">Perceived Rationality</data></node>
+<node id="n350" labels=":Concept"><data key="labels">:Concept</data><data key="id">Teaching Burden</data></node>
+<node id="n351" labels=":Entity"><data key="labels">:Entity</data><data key="id">Ai Learner</data></node>
+<node id="n352" labels=":Concept"><data key="labels">:Concept</data><data key="id">Teacher Efficacy</data></node>
+<node id="n353" labels=":Concept"><data key="labels">:Concept</data><data key="id">Feedback</data></node>
+<node id="n354" labels=":Concept"><data key="labels">:Concept</data><data key="function">Convey rich social information</data><data key="id">Nonverbal Communication</data></node>
+<node id="n355" labels=":Concept"><data key="labels">:Concept</data><data key="characteristic">Missing crucial social characteristics</data><data key="id">Scene Understanding Literature</data></node>
+<node id="n356" labels=":Concept"><data key="labels">:Concept</data><data key="id">Nonverbal Communication Cues</data><data key="examples">Gaze, human poses, gestures</data></node>
+<node id="n357" labels=":Entity"><data key="labels">:Entity</data><data key="mentalStates">Inferred from visual inputs</data><data key="id">Agents</data></node>
+<node id="n358" labels=":Model"><data key="labels">:Model</data><data key="id">Five Minds Model</data><data key="function">Forms during interactions between two agents</data></node>
+<node id="n359" labels=":Concept"><data key="labels">:Concept</data><data key="function">Converged agents' beliefs</data><data key="id">Common Mind</data></node>
+<node id="n360" labels=":Model"><data key="labels">:Model</data><data key="function">Tracks and predicts all five minds</data><data key="id">Hierarchical Energy-Based Model</data></node>
+<node id="n361" labels=":Concept"><data key="labels">:Concept</data><data key="id">Social Event</data><data key="interpretation">Nonverbal communication and belief dynamics</data></node>
+<node id="n362" labels=":Concept"><data key="labels">:Concept</data><data key="id">Video Summary</data><data key="comparison">Better on videos with rich social interactions</data></node>
+<node id="n363" labels=":Person"><data key="labels">:Person</data><data key="id">Prompt Author</data></node>
+<node id="n364" labels=":Concept"><data key="labels">:Concept</data><data key="id">Automatic Prompt Optimization</data></node>
+<node id="n365" labels=":Concept"><data key="labels">:Concept</data><data key="id">Annotated Data</data></node>
+<node id="n366" labels=":System"><data key="labels">:System</data><data key="id">Iprop</data></node>
+<node id="n367" labels=":Concept"><data key="labels">:Concept</data><data key="id">Human Intervention</data></node>
+<node id="n368" labels=":Concept"><data key="labels">:Concept</data><data key="id">Prompt Variations</data></node>
+<node id="n369" labels=":Concept"><data key="labels">:Concept</data><data key="id">Selected Instances</data></node>
+<node id="n370" labels=":Concept"><data key="labels">:Concept</data><data key="id">Large Language Model Predictions</data></node>
+<node id="n371" labels=":Concept"><data key="labels">:Concept</data><data key="id">Explanations</data></node>
+<node id="n372" labels=":Concept"><data key="labels">:Concept</data><data key="id">Performance Metrics</data></node>
+<node id="n373" labels=":Concept"><data key="labels">:Concept</data><data key="id">Training Data</data></node>
+<node id="n374" labels=":Person"><data key="labels">:Person</data><data key="id">Non-Technical Domain Experts</data></node>
+<node id="n375" labels=":Concept"><data key="labels">:Concept</data><data key="id">Intrinsic Parameters</data></node>
+<node id="n376" labels=":Concept"><data key="labels">:Concept</data><data key="id">Task Performance</data></node>
+<node id="n377" labels=":Concept"><data key="labels">:Concept</data><data key="id">Effectiveness</data></node>
+<node id="n378" labels=":Concept"><data key="labels">:Concept</data><data key="id">Prompt Development Process</data></node>
+<node id="n379" labels=":Entity"><data key="labels">:Entity</data><data key="capability">underperform on simple ToM benchmarks</data><data key="id">Large Language Models</data></node>
+<node id="n380" labels=":Dataset"><data key="labels">:Dataset</data><data key="id">Percept-Tomi</data></node>
+<node id="n381" labels=":Dataset"><data key="labels">:Dataset</data><data key="id">Percept-Fantom</data></node>
+<node id="n382" labels=":Method"><data key="labels">:Method</data><data key="capability">enhances LLM's performance in false belief scenarios</data><data key="id">Perceptom</data></node>
+<node id="n383" labels=":Concept"><data key="labels">:Concept</data><data key="id">Parameter-Efficient Fine-Tuning</data></node>
+<node id="n384" labels=":Concept"><data key="labels">:Concept</data><data key="id">Controlled Generation</data></node>
+<node id="n385" labels=":Concept"><data key="labels">:Concept</data><data key="id">Controlpe</data></node>
+<node id="n386" labels=":Concept"><data key="labels">:Concept</data><data key="id">Lora</data></node>
+<node id="n387" labels=":Concept"><data key="labels">:Concept</data><data key="id">Prompt Distillation</data></node>
+<node id="n388" labels=":Concept"><data key="labels">:Concept</data><data key="id">Lora Merging Weight</data></node>
+<node id="n389" labels=":Concept"><data key="labels">:Concept</data><data key="id">Prompt Control</data></node>
+<node id="n390" labels=":Concept"><data key="labels">:Concept</data><data key="id">Short Responses Prompts</data></node>
+<node id="n391" labels=":Concept"><data key="labels">:Concept</data><data key="id">Refusal Prompts</data></node>
+<node id="n392" labels=":Concept"><data key="labels">:Concept</data><data key="id">Chain-Of-Thought Prompts</data></node>
+<node id="n393" labels=":Concept"><data key="labels">:Concept</data><data key="id">Language Models</data></node>
+<node id="n394" labels=":Concept"><data key="labels">:Concept</data><data key="id">Belief Representations</data></node>
+<node id="n395" labels=":Concept"><data key="labels">:Concept</data><data key="id">Fine-Tuning</data></node>
+<node id="n396" labels=":Concept"><data key="labels">:Concept</data><data key="id">Targeted Edits</data></node>
+<node id="n397" labels=":Concept"><data key="labels">:Concept</data><data key="id">Model Activations</data></node>
+<node id="n398" labels=":Concept"><data key="labels">:Concept</data><data key="id">Few-Shot</data></node>
+<node id="n399" labels=":Concept"><data key="labels">:Concept</data><data key="id">Role-Based Techniques</data></node>
+<node id="n400" labels=":Concept"><data key="labels">:Concept</data><data key="id">Prompt Canvas</data></node>
+<node id="n401" labels=":Person"><data key="labels">:Person</data><data key="id">Pupils</data></node>
+<node id="n402" labels=":Person"><data key="labels">:Person</data><data key="id">Students</data></node>
+<node id="n403" labels=":Person"><data key="labels">:Person</data><data key="id">Employees</data></node>
+<edge id="e0" source="n0" target="n1" label="IMPORTANCE"><data key="label">IMPORTANCE</data></edge>
+<edge id="e1" source="n2" target="n3" label="ANALYZES"><data key="label">ANALYZES</data></edge>
+<edge id="e2" source="n2" target="n4" label="SUGGESTS"><data key="label">SUGGESTS</data></edge>
+<edge id="e3" source="n4" target="n5" label="REDUCE"><data key="label">REDUCE</data></edge>
+<edge id="e4" source="n10" target="n6" label="CARRIED_OUT_WITH"><data key="label">CARRIED_OUT_WITH</data></edge>
+<edge id="e5" source="n7" target="n4" label="IMPLEMENTATION_OF"><data key="label">IMPLEMENTATION_OF</data></edge>
+<edge id="e6" source="n7" target="n3" label="IMPROVE"><data key="label">IMPROVE</data></edge>
+<edge id="e7" source="n8" target="n9" label="ENHANCEMENT_ON"><data key="label">ENHANCEMENT_ON</data></edge>
+<edge id="e8" source="n11" target="n12" label="ROOTED_IN"><data key="label">ROOTED_IN</data></edge>
+<edge id="e9" source="n12" target="n13" label="CHALLENGE"><data key="label">CHALLENGE</data></edge>
+<edge id="e10" source="n16" target="n13" label="IMPROVES"><data key="label">IMPROVES</data></edge>
+<edge id="e11" source="n15" target="n14" label="INSPIRED_BY"><data key="label">INSPIRED_BY</data></edge>
+<edge id="e12" source="n15" target="n12" label="IMPROVES"><data key="label">IMPROVES</data></edge>
+<edge id="e13" source="n17" target="n18" label="ENABLE"><data key="label">ENABLE</data></edge>
+<edge id="e14" source="n17" target="n12" label="LEVERAGE"><data key="label">LEVERAGE</data></edge>
+<edge id="e15" source="n17" target="n19" label="CONSTRUCT"><data key="label">CONSTRUCT</data></edge>
+<edge id="e16" source="n17" target="n13" label="UTILIZE"><data key="label">UTILIZE</data></edge>
+<edge id="e17" source="n17" target="n20" label="DEMONSTRATE"><data key="label">DEMONSTRATE</data></edge>
+<edge id="e18" source="n21" target="n12" label="IMPROVE"><data key="label">IMPROVE</data></edge>
+<edge id="e19" source="n22" target="n21" label="COMPONENT"><data key="label">COMPONENT</data></edge>
+<edge id="e20" source="n23" target="n22" label="COMPONENT"><data key="label">COMPONENT</data></edge>
+<edge id="e21" source="n24" target="n25" label="ALLEVIATE"><data key="label">ALLEVIATE</data></edge>
+<edge id="e22" source="n26" target="n24" label="FRAMEWORK"><data key="label">FRAMEWORK</data></edge>
+<edge id="e23" source="n26" target="n27" label="DRIVEN_BY"><data key="label">DRIVEN_BY</data></edge>
+<edge id="e24" source="n26" target="n28" label="INTEGRATES"><data key="label">INTEGRATES</data></edge>
+<edge id="e25" source="n26" target="n29" label="INTEGRATES"><data key="label">INTEGRATES</data></edge>
+<edge id="e26" source="n26" target="n30" label="INTEGRATES"><data key="label">INTEGRATES</data></edge>
+<edge id="e27" source="n26" target="n31" label="ACHIEVES_COMPETITIVE_PERFORMANCE"><data key="label">ACHIEVES_COMPETITIVE_PERFORMANCE</data></edge>
+<edge id="e28" source="n32" target="n33" label="GROUNDED_IN"><data key="label">GROUNDED_IN</data></edge>
+<edge id="e29" source="n32" target="n34" label="INTRODUCE"><data key="label">INTRODUCE</data></edge>
+<edge id="e30" source="n34" target="n35" label="TRANSLATE"><data key="label">TRANSLATE</data></edge>
+<edge id="e31" source="n34" target="n36" label="TRANSLATE_INTO"><data key="label">TRANSLATE_INTO</data></edge>
+<edge id="e32" source="n36" target="n37" label="WITH"><data key="label">WITH</data></edge>
+<edge id="e33" source="n36" target="n38" label="EVALUATE_AGAINST"><data key="label">EVALUATE_AGAINST</data></edge>
+<edge id="e34" source="n34" target="n39" label="CAPTURE"><data key="label">CAPTURE</data></edge>
+<edge id="e35" source="n40" target="n41" label="INVOLVE"><data key="label">INVOLVE</data></edge>
+<edge id="e36" source="n41" target="n42" label="WATCH"><data key="label">WATCH</data></edge>
+<edge id="e37" source="n42" target="n43" label="NAVIGATE"><data key="label">NAVIGATE</data></edge>
+<edge id="e38" source="n44" target="n45" label="HIDDEN_IN"><data key="label">HIDDEN_IN</data></edge>
+<edge id="e39" source="n42" target="n46" label="REACH"><data key="label">REACH</data></edge>
+<edge id="e40" source="n41" target="n47" label="RATE"><data key="label">RATE</data></edge>
+<edge id="e41" source="n34" target="n50" label="CORRELATE_WITH"><data key="label">CORRELATE_WITH</data></edge>
+<edge id="e42" source="n48" target="n50" label="CONTRAST_WITH"><data key="label">CONTRAST_WITH</data></edge>
+<edge id="e43" source="n49" target="n50" label="CONTRAST_WITH"><data key="label">CONTRAST_WITH</data></edge>
+<edge id="e44" source="n34" target="n51" label="CORRELATE_WITH"><data key="label">CORRELATE_WITH</data></edge>
+<edge id="e45" source="n34" target="n52" label="CORRELATE_WITH"><data key="label">CORRELATE_WITH</data></edge>
+<edge id="e46" source="n34" target="n53" label="CORRELATE_WITH"><data key="label">CORRELATE_WITH</data></edge>
+<edge id="e47" source="n34" target="n54" label="CORRELATE_WITH"><data key="label">CORRELATE_WITH</data></edge>
+<edge id="e48" source="n34" target="n55" label="CORRELATE_WITH"><data key="label">CORRELATE_WITH</data></edge>
+<edge id="e49" source="n56" target="n57" label="PARTICIPATE_IN"><data key="label">PARTICIPATE_IN</data></edge>
+<edge id="e50" source="n58" target="n57" label="LACK_ABILITY"><data key="label">LACK_ABILITY</data></edge>
+<edge id="e51" source="n59" target="n60" label="INCLUDE"><data key="label">INCLUDE</data></edge>
+<edge id="e52" source="n59" target="n61" label="APPLY_TO"><data key="label">APPLY_TO</data></edge>
+<edge id="e53" source="n62" target="n64" label="SHOW"><data key="label">SHOW</data></edge>
+<edge id="e54" source="n63" target="n65" label="VALIDATE"><data key="label">VALIDATE</data></edge>
+<edge id="e55" source="n66" target="n67" label="USE"><data key="label">USE</data></edge>
+<edge id="e56" source="n66" target="n68" label="RIVAL"><data key="label">RIVAL</data></edge>
+<edge id="e57" source="n66" target="n69" label="SURPASS"><data key="label">SURPASS</data></edge>
+<edge id="e58" source="n66" target="n70" label="STRUGGLE"><data key="label">STRUGGLE</data></edge>
+<edge id="e59" source="n82" target="n71" label="ATTRIBUTE"><data key="label">ATTRIBUTE</data></edge>
+<edge id="e60" source="n82" target="n72" label="ATTRIBUTE"><data key="label">ATTRIBUTE</data></edge>
+<edge id="e61" source="n73" target="n74" label="INFLUENCE"><data key="label">INFLUENCE</data></edge>
+<edge id="e62" source="n83" target="n75" label="GROUND"><data key="label">GROUND</data></edge>
+<edge id="e63" source="n84" target="n76" label="VARIANCE"><data key="label">VARIANCE</data></edge>
+<edge id="e64" source="n84" target="n77" label="ARISE"><data key="label">ARISE</data></edge>
+<edge id="e65" source="n78" target="n79" label="APPROACH"><data key="label">APPROACH</data></edge>
+<edge id="e66" source="n85" target="n80" label="ADOPT"><data key="label">ADOPT</data></edge>
+<edge id="e67" source="n85" target="n81" label="RESULT"><data key="label">RESULT</data></edge>
+<edge id="e68" source="n66" target="n87" label="REPRESENT"><data key="label">REPRESENT</data></edge>
+<edge id="e69" source="n86" target="n66" label="DEVELOP_METHODS_FOR"><data key="label">DEVELOP_METHODS_FOR</data></edge>
+<edge id="e70" source="n87" target="n88" label="SHARE_FEATURES_WITH"><data key="label">SHARE_FEATURES_WITH</data></edge>
+<edge id="e71" source="n87" target="n89" label="SHARE_FEATURES_WITH"><data key="label">SHARE_FEATURES_WITH</data></edge>
+<edge id="e72" source="n87" target="n92" label="CRITERIA"><data key="label">CRITERIA</data></edge>
+<edge id="e73" source="n87" target="n93" label="CRITERIA"><data key="label">CRITERIA</data></edge>
+<edge id="e74" source="n87" target="n94" label="CRITERIA"><data key="label">CRITERIA</data></edge>
+<edge id="e75" source="n87" target="n95" label="CRITERIA"><data key="label">CRITERIA</data></edge>
+<edge id="e76" source="n90" target="n87" label="INSIGHTS_FOR"><data key="label">INSIGHTS_FOR</data></edge>
+<edge id="e77" source="n91" target="n87" label="INSIGHTS_FOR"><data key="label">INSIGHTS_FOR</data></edge>
+<edge id="e78" source="n12" target="n56" label="ABILITY"><data key="label">ABILITY</data></edge>
+<edge id="e79" source="n12" target="n96" label="LACKING"><data key="label">LACKING</data></edge>
+<edge id="e80" source="n12" target="n97" label="LACKING"><data key="label">LACKING</data></edge>
+<edge id="e81" source="n98" target="n12" label="FORMALIZES"><data key="label">FORMALIZES</data></edge>
+<edge id="e82" source="n98" target="n100" label="COLLECTION"><data key="label">COLLECTION</data></edge>
+<edge id="e83" source="n99" target="n98" label="GENERALIZES"><data key="label">GENERALIZES</data></edge>
+<edge id="e84" source="n99" target="n66" label="USES"><data key="label">USES</data></edge>
+<edge id="e85" source="n13" target="n12" label="RELATED_TO"><data key="label">RELATED_TO</data></edge>
+<edge id="e86" source="n101" target="n12" label="OUTPERFORM_IN"><data key="label">OUTPERFORM_IN</data></edge>
+<edge id="e87" source="n101" target="n104" label="OUTPERFORM"><data key="label">OUTPERFORM</data></edge>
+<edge id="e88" source="n102" target="n12" label="UNABLE_TO_SOLVE"><data key="label">UNABLE_TO_SOLVE</data></edge>
+<edge id="e89" source="n103" target="n101" label="PART_OF"><data key="label">PART_OF</data></edge>
+<edge id="e90" source="n12" target="n105" label="FEATURE"><data key="label">FEATURE</data></edge>
+<edge id="e91" source="n106" target="n105" label="LIMIT"><data key="label">LIMIT</data></edge>
+<edge id="e92" source="n12" target="n107" label="INTEREST"><data key="label">INTEREST</data></edge>
+<edge id="e93" source="n12" target="n108" label="INTEREST"><data key="label">INTEREST</data></edge>
+<edge id="e94" source="n12" target="n109" label="INTEREST"><data key="label">INTEREST</data></edge>
+<edge id="e95" source="n2" target="n12" label="CONTRIBUTION"><data key="label">CONTRIBUTION</data></edge>
+<edge id="e96" source="n110" target="n12" label="USE"><data key="label">USE</data></edge>
+<edge id="e97" source="n111" target="n105" label="ASSIST"><data key="label">ASSIST</data></edge>
+<edge id="e98" source="n12" target="n112" label="HALLMARK"><data key="label">HALLMARK</data></edge>
+<edge id="e99" source="n113" target="n114" label="REASON_ABOUT"><data key="label">REASON_ABOUT</data></edge>
+<edge id="e100" source="n113" target="n115" label="REASON_ABOUT"><data key="label">REASON_ABOUT</data></edge>
+<edge id="e101" source="n116" target="n117" label="ADVANCE"><data key="label">ADVANCE</data></edge>
+<edge id="e102" source="n118" target="n119" label="SURPASSES"><data key="label">SURPASSES</data></edge>
+<edge id="e103" source="n119" target="n120" label="DESIGNED_FOR"><data key="label">DESIGNED_FOR</data></edge>
+<edge id="e104" source="n118" target="n121" label="SUPPORT_FOR_PRESENCE_OF_TOM"><data key="label">SUPPORT_FOR_PRESENCE_OF_TOM</data></edge>
+<edge id="e105" source="n13" target="n122" label="LEVERAGES"><data key="label">LEVERAGES</data></edge>
+<edge id="e106" source="n122" target="n124" label="CATEGORIZES"><data key="label">CATEGORIZES</data></edge>
+<edge id="e107" source="n124" target="n125" label="INCLUDES"><data key="label">INCLUDES</data></edge>
+<edge id="e108" source="n124" target="n126" label="INCLUDES"><data key="label">INCLUDES</data></edge>
+<edge id="e109" source="n124" target="n127" label="INCLUDES"><data key="label">INCLUDES</data></edge>
+<edge id="e110" source="n128" target="n129" label="PRESENTS"><data key="label">PRESENTS</data></edge>
+<edge id="e111" source="n129" target="n122" label="ENFORCES"><data key="label">ENFORCES</data></edge>
+<edge id="e112" source="n130" target="n131" label="FACE_CHALLENGES"><data key="label">FACE_CHALLENGES</data></edge>
+<edge id="e113" source="n132" target="n130" label="ENHANCE_PERFORMANCE"><data key="label">ENHANCE_PERFORMANCE</data></edge>
+<edge id="e114" source="n133" target="n132" label="MEASURED"><data key="label">MEASURED</data></edge>
+<edge id="e115" source="n134" target="n132" label="MEASURED"><data key="label">MEASURED</data></edge>
+<edge id="e116" source="n138" target="n133" label="TRAINED_WITH"><data key="label">TRAINED_WITH</data></edge>
+<edge id="e117" source="n138" target="n136" label="TRAINED_WITH"><data key="label">TRAINED_WITH</data></edge>
+<edge id="e118" source="n138" target="n137" label="TRAINED_WITH"><data key="label">TRAINED_WITH</data></edge>
+<edge id="e119" source="n138" target="n135" label="NOT_TRAINED_WITH"><data key="label">NOT_TRAINED_WITH</data></edge>
+<edge id="e120" source="n130" target="n132" label="IMPROVE_COMPREHENSION"><data key="label">IMPROVE_COMPREHENSION</data></edge>
+<edge id="e121" source="n130" target="n132" label="ENHANCE_REASONING"><data key="label">ENHANCE_REASONING</data></edge>
+<edge id="e122" source="n130" target="n132" label="CONTEXT-DEPENDENT"><data key="label">CONTEXT-DEPENDENT</data></edge>
+<edge id="e123" source="n12" target="n56" label="ENDOWS"><data key="label">ENDOWS</data></edge>
+<edge id="e124" source="n56" target="n140" label="ATTRIBUTE"><data key="label">ATTRIBUTE</data></edge>
+<edge id="e125" source="n56" target="n141" label="INFER"><data key="label">INFER</data></edge>
+<edge id="e126" source="n56" target="n114" label="INFER"><data key="label">INFER</data></edge>
+<edge id="e127" source="n56" target="n115" label="INFER"><data key="label">INFER</data></edge>
+<edge id="e128" source="n56" target="n142" label="OBSERVE"><data key="label">OBSERVE</data></edge>
+<edge id="e129" source="n56" target="n143" label="FACILITATE"><data key="label">FACILITATE</data></edge>
+<edge id="e130" source="n56" target="n144" label="FACILITATE"><data key="label">FACILITATE</data></edge>
+<edge id="e131" source="n145" target="n12" label="INVESTIGATED_WITH"><data key="label">INVESTIGATED_WITH</data></edge>
+<edge id="e132" source="n146" target="n147" label="COLLABORATES_WITH"><data key="label">COLLABORATES_WITH</data></edge>
+<edge id="e133" source="n146" target="n148" label="COLLABORATES_WITH"><data key="label">COLLABORATES_WITH</data></edge>
+<edge id="e134" source="n146" target="n149" label="AGAINST"><data key="label">AGAINST</data></edge>
+<edge id="e135" source="n148" target="n150" label="FOCUS_ON"><data key="label">FOCUS_ON</data></edge>
+<edge id="e136" source="n148" target="n151" label="RESORT_TO"><data key="label">RESORT_TO</data></edge>
+<edge id="e137" source="n151" target="n152" label="THREAT_TO"><data key="label">THREAT_TO</data></edge>
+<edge id="e138" source="n147" target="n148" label="TRUST_IN"><data key="label">TRUST_IN</data></edge>
+<edge id="e139" source="n148" target="n154" label="EXHIBIT"><data key="label">EXHIBIT</data></edge>
+<edge id="e140" source="n155" target="n156" label="INFER"><data key="label">INFER</data></edge>
+<edge id="e141" source="n156" target="n157" label="INCLUDE"><data key="label">INCLUDE</data></edge>
+<edge id="e142" source="n156" target="n158" label="INCLUDE"><data key="label">INCLUDE</data></edge>
+<edge id="e143" source="n159" target="n156" label="BASED_ON"><data key="label">BASED_ON</data></edge>
+<edge id="e144" source="n159" target="n160" label="GUIDE"><data key="label">GUIDE</data></edge>
+<edge id="e145" source="n160" target="n161" label="AVOID_COLLAPSE_OF"><data key="label">AVOID_COLLAPSE_OF</data></edge>
+<edge id="e146" source="n160" target="n151" label="AVOID"><data key="label">AVOID</data></edge>
+<edge id="e147" source="n163" target="n161" label="IMPORTANT_FOR"><data key="label">IMPORTANT_FOR</data></edge>
+<edge id="e148" source="n163" target="n162" label="EFFECTIVE_IN"><data key="label">EFFECTIVE_IN</data></edge>
+<edge id="e149" source="n164" target="n165" label="USES"><data key="label">USES</data></edge>
+<edge id="e150" source="n164" target="n166" label="INCLUDES"><data key="label">INCLUDES</data></edge>
+<edge id="e151" source="n164" target="n167" label="INSPIRED_BY"><data key="label">INSPIRED_BY</data></edge>
+<edge id="e152" source="n164" target="n168" label="INSPIRED_BY"><data key="label">INSPIRED_BY</data></edge>
+<edge id="e153" source="n164" target="n169" label="EVALUATED_ON"><data key="label">EVALUATED_ON</data></edge>
+<edge id="e154" source="n164" target="n170" label="EVALUATED_ON"><data key="label">EVALUATED_ON</data></edge>
+<edge id="e155" source="n171" target="n12" label="ENHANCES"><data key="label">ENHANCES</data></edge>
+<edge id="e156" source="n171" target="n172" label="DEMONSTRATES_PERFORMANCE_ON"><data key="label">DEMONSTRATES_PERFORMANCE_ON</data></edge>
+<edge id="e157" source="n173" target="n184" label="SEEK"><data key="label">SEEK</data></edge>
+<edge id="e158" source="n174" target="n184" label="SEEK"><data key="label">SEEK</data></edge>
+<edge id="e159" source="n175" target="n184" label="SEEK"><data key="label">SEEK</data></edge>
+<edge id="e160" source="n176" target="n185" label="IS"><data key="label">IS</data></edge>
+<edge id="e161" source="n177" target="n186" label="PACKED_WITH"><data key="label">PACKED_WITH</data></edge>
+<edge id="e162" source="n178" target="n187" label="DEEMED_TO_BE"><data key="label">DEEMED_TO_BE</data></edge>
+<edge id="e163" source="n179" target="n188" label="DISSEMINATE"><data key="label">DISSEMINATE</data></edge>
+<edge id="e164" source="n180" target="n182" label="MANIPULATE"><data key="label">MANIPULATE</data></edge>
+<edge id="e165" source="n181" target="n189" label="PREVENT"><data key="label">PREVENT</data></edge>
+<edge id="e166" source="n182" target="n190" label="CAUSE"><data key="label">CAUSE</data></edge>
+<edge id="e167" source="n183" target="n191" label="PERPETRATE"><data key="label">PERPETRATE</data></edge>
+<edge id="e168" source="n12" target="n192" label="ENHANCE"><data key="label">ENHANCE</data></edge>
+<edge id="e169" source="n193" target="n194" label="EXPLORE"><data key="label">EXPLORE</data></edge>
+<edge id="e170" source="n193" target="n195" label="ASSESS"><data key="label">ASSESS</data></edge>
+<edge id="e171" source="n193" target="n196" label="ENHANCE"><data key="label">ENHANCE</data></edge>
+<edge id="e172" source="n197" target="n196" label="UNDERPERFORM"><data key="label">UNDERPERFORM</data></edge>
+<edge id="e173" source="n13" target="n12" label="EXHIBIT"><data key="label">EXHIBIT</data></edge>
+<edge id="e174" source="n12" target="n198" label="RELATED_TO"><data key="label">RELATED_TO</data></edge>
+<edge id="e175" source="n206" target="n199" label="DERIVE_FROM"><data key="label">DERIVE_FROM</data></edge>
+<edge id="e176" source="n200" target="n201" label="EXHIBIT"><data key="label">EXHIBIT</data></edge>
+<edge id="e177" source="n200" target="n202" label="CORRELATED_WITH"><data key="label">CORRELATED_WITH</data></edge>
+<edge id="e178" source="n200" target="n203" label="DEPENDENT_ON"><data key="label">DEPENDENT_ON</data></edge>
+<edge id="e179" source="n207" target="n204" label="PRESENT_AT"><data key="label">PRESENT_AT</data></edge>
+<edge id="e180" source="n13" target="n205" label="PARALLEL_WITH"><data key="label">PARALLEL_WITH</data></edge>
+<edge id="e181" source="n179" target="n13" label="INTEGRATION"><data key="label">INTEGRATION</data></edge>
+<edge id="e182" source="n179" target="n208" label="INTEGRATION"><data key="label">INTEGRATION</data></edge>
+<edge id="e183" source="n209" target="n212" label="USES"><data key="label">USES</data></edge>
+<edge id="e184" source="n209" target="n213" label="INSPIRED_BY"><data key="label">INSPIRED_BY</data></edge>
+<edge id="e185" source="n209" target="n214" label="INSPIRED_BY"><data key="label">INSPIRED_BY</data></edge>
+<edge id="e186" source="n209" target="n215" label="INSPIRED_BY"><data key="label">INSPIRED_BY</data></edge>
+<edge id="e187" source="n210" target="n216" label="MOTIVATED_BY"><data key="label">MOTIVATED_BY</data></edge>
+<edge id="e188" source="n210" target="n217" label="MOTIVATED_BY"><data key="label">MOTIVATED_BY</data></edge>
+<edge id="e189" source="n211" target="n218" label="INSPIRED_BY"><data key="label">INSPIRED_BY</data></edge>
+<edge id="e190" source="n219" target="n167" label="HAS"><data key="label">HAS</data></edge>
+<edge id="e191" source="n167" target="n220" label="INFERS"><data key="label">INFERS</data></edge>
+<edge id="e192" source="n220" target="n221" label="EXHIBITED_DURING"><data key="label">EXHIBITED_DURING</data></edge>
+<edge id="e193" source="n222" target="n223" label="IMPORTANT_FOR"><data key="label">IMPORTANT_FOR</data></edge>
+<edge id="e194" source="n224" target="n225" label="COMBINED_WITH"><data key="label">COMBINED_WITH</data></edge>
+<edge id="e195" source="n224" target="n226" label="ENHANCES_COLLABORATION_WITH"><data key="label">ENHANCES_COLLABORATION_WITH</data></edge>
+<edge id="e196" source="n227" target="n226" label="PROHIBITED_IN"><data key="label">PROHIBITED_IN</data></edge>
+<edge id="e197" source="n228" target="n229" label="ASSESSES"><data key="label">ASSESSES</data></edge>
+<edge id="e198" source="n228" target="n230" label="PREDICTS"><data key="label">PREDICTS</data></edge>
+<edge id="e199" source="n228" target="n231" label="IN"><data key="label">IN</data></edge>
+<edge id="e200" source="n228" target="n232" label="EVALUATED_WITH"><data key="label">EVALUATED_WITH</data></edge>
+<edge id="e201" source="n233" target="n234" label="AFFECTS"><data key="label">AFFECTS</data></edge>
+<edge id="e202" source="n225" target="n234" label="AFFECTS"><data key="label">AFFECTS</data></edge>
+<edge id="e203" source="n12" target="n237" label="ROLE"><data key="label">ROLE</data></edge>
+<edge id="e204" source="n12" target="n238" label="ROLE"><data key="label">ROLE</data></edge>
+<edge id="e205" source="n12" target="n239" label="ROLE"><data key="label">ROLE</data></edge>
+<edge id="e206" source="n235" target="n12" label="BENCHMARK"><data key="label">BENCHMARK</data></edge>
+<edge id="e207" source="n13" target="n240" label="PERFORMANCE"><data key="label">PERFORMANCE</data></edge>
+<edge id="e208" source="n13" target="n241" label="ANALYSIS"><data key="label">ANALYSIS</data></edge>
+<edge id="e209" source="n242" target="n236" label="IMPLICATIONS"><data key="label">IMPLICATIONS</data></edge>
+<edge id="e210" source="n243" target="n12" label="NECESSITATES"><data key="label">NECESSITATES</data></edge>
+<edge id="e211" source="n12" target="n245" label="TRAIN"><data key="label">TRAIN</data></edge>
+<edge id="e212" source="n244" target="n245" label="TRAIN"><data key="label">TRAIN</data></edge>
+<edge id="e213" source="n245" target="n247" label="EQUIP"><data key="label">EQUIP</data></edge>
+<edge id="e214" source="n245" target="n248" label="EQUIP"><data key="label">EQUIP</data></edge>
+<edge id="e215" source="n247" target="n245" label="ENABLE"><data key="label">ENABLE</data></edge>
+<edge id="e216" source="n246" target="n12" label="MODEL"><data key="label">MODEL</data></edge>
+<edge id="e217" source="n249" target="n12" label="DEMONSTRATE"><data key="label">DEMONSTRATE</data></edge>
+<edge id="e218" source="n250" target="n251" label="MOTIVATION"><data key="label">MOTIVATION</data></edge>
+<edge id="e219" source="n250" target="n252" label="USE"><data key="label">USE</data></edge>
+<edge id="e220" source="n250" target="n253" label="EMBEDDED_IN"><data key="label">EMBEDDED_IN</data></edge>
+<edge id="e221" source="n250" target="n254" label="EXPLORE"><data key="label">EXPLORE</data></edge>
+<edge id="e222" source="n250" target="n255" label="FOCUS"><data key="label">FOCUS</data></edge>
+<edge id="e223" source="n250" target="n256" label="FOCUS"><data key="label">FOCUS</data></edge>
+<edge id="e224" source="n257" target="n258" label="ADD_RIGOR_TO"><data key="label">ADD_RIGOR_TO</data></edge>
+<edge id="e225" source="n250" target="n259" label="STUDY"><data key="label">STUDY</data></edge>
+<edge id="e226" source="n260" target="n261" label="DESCRIBE"><data key="label">DESCRIBE</data></edge>
+<edge id="e227" source="n260" target="n262" label="DESCRIBE"><data key="label">DESCRIBE</data></edge>
+<edge id="e228" source="n263" target="n265" label="PRESERVE"><data key="label">PRESERVE</data></edge>
+<edge id="e229" source="n264" target="n265" label="PRESERVE"><data key="label">PRESERVE</data></edge>
+<edge id="e230" source="n250" target="n254" label="ADVANTAGE"><data key="label">ADVANTAGE</data></edge>
+<edge id="e231" source="n78" target="n266" label="AUGMENTS"><data key="label">AUGMENTS</data></edge>
+<edge id="e232" source="n267" target="n268" label="KNOWN_AS"><data key="label">KNOWN_AS</data></edge>
+<edge id="e233" source="n78" target="n269" label="STUDIED_IN"><data key="label">STUDIED_IN</data></edge>
+<edge id="e234" source="n78" target="n270" label="STUDIED_IN"><data key="label">STUDIED_IN</data></edge>
+<edge id="e235" source="n78" target="n271" label="SURVEYS"><data key="label">SURVEYS</data></edge>
+<edge id="e236" source="n78" target="n272" label="SURVEYS"><data key="label">SURVEYS</data></edge>
+<edge id="e237" source="n78" target="n273" label="SURVEYS"><data key="label">SURVEYS</data></edge>
+<edge id="e238" source="n271" target="n274" label="EXAMPLE_OF"><data key="label">EXAMPLE_OF</data></edge>
+<edge id="e239" source="n272" target="n275" label="EXAMPLE_OF"><data key="label">EXAMPLE_OF</data></edge>
+<edge id="e240" source="n273" target="n276" label="EXAMPLE_OF"><data key="label">EXAMPLE_OF</data></edge>
+<edge id="e241" source="n277" target="n13" label="GUIDE"><data key="label">GUIDE</data></edge>
+<edge id="e242" source="n278" target="n277" label="AIM"><data key="label">AIM</data></edge>
+<edge id="e243" source="n279" target="n278" label="PROPOSE"><data key="label">PROPOSE</data></edge>
+<edge id="e244" source="n280" target="n268" label="EXPRESS"><data key="label">EXPRESS</data></edge>
+<edge id="e245" source="n281" target="n268" label="UTILIZE"><data key="label">UTILIZE</data></edge>
+<edge id="e246" source="n282" target="n279" label="ADOPT"><data key="label">ADOPT</data></edge>
+<edge id="e247" source="n282" target="n283" label="COMPUTE"><data key="label">COMPUTE</data></edge>
+<edge id="e248" source="n282" target="n284" label="OUTPERFORM"><data key="label">OUTPERFORM</data></edge>
+<edge id="e249" source="n278" target="n285" label="DEPLOY"><data key="label">DEPLOY</data></edge>
+<edge id="e250" source="n286" target="n13" label="DEFENDS"><data key="label">DEFENDS</data></edge>
+<edge id="e251" source="n13" target="n287" label="POSSESS"><data key="label">POSSESS</data></edge>
+<edge id="e252" source="n13" target="n114" label="POSSESS"><data key="label">POSSESS</data></edge>
+<edge id="e253" source="n13" target="n141" label="POSSESS"><data key="label">POSSESS</data></edge>
+<edge id="e254" source="n13" target="n288" label="POSSESS"><data key="label">POSSESS</data></edge>
+<edge id="e255" source="n13" target="n115" label="POSSESS"><data key="label">POSSESS</data></edge>
+<edge id="e256" source="n289" target="n298" label="CONNECT"><data key="label">CONNECT</data></edge>
+<edge id="e257" source="n290" target="n288" label="IMPLIES"><data key="label">IMPLIES</data></edge>
+<edge id="e258" source="n288" target="n114" label="IMPLIES"><data key="label">IMPLIES</data></edge>
+<edge id="e259" source="n299" target="n115" label="IMPLIES"><data key="label">IMPLIES</data></edge>
+<edge id="e260" source="n291" target="n300" label="DO_NOT_PRECLUDE"><data key="label">DO_NOT_PRECLUDE</data></edge>
+<edge id="e261" source="n292" target="n293" label="ARGUE_AGAINST_LACKING_CONDITIONS"><data key="label">ARGUE_AGAINST_LACKING_CONDITIONS</data></edge>
+<edge id="e262" source="n293" target="n294" label="COMPARE_TO"><data key="label">COMPARE_TO</data></edge>
+<edge id="e263" source="n13" target="n295" label="EXCLUDE"><data key="label">EXCLUDE</data></edge>
+<edge id="e264" source="n13" target="n296" label="POSSESS"><data key="label">POSSESS</data></edge>
+<edge id="e265" source="n296" target="n297" label="BEYOND"><data key="label">BEYOND</data></edge>
+<edge id="e266" source="n301" target="n71" label="CARRIED_OUT_VIA"><data key="label">CARRIED_OUT_VIA</data></edge>
+<edge id="e267" source="n302" target="n303" label="DEFINED_AS"><data key="label">DEFINED_AS</data></edge>
+<edge id="e268" source="n303" target="n118" label="DESIGNED_TO_ELICIT_BEHAVIOR_FROM"><data key="label">DESIGNED_TO_ELICIT_BEHAVIOR_FROM</data></edge>
+<edge id="e269" source="n315" target="n304" label="ENABLE_INTERACTION_WITH"><data key="label">ENABLE_INTERACTION_WITH</data></edge>
+<edge id="e270" source="n306" target="n305" label="REQUIRED_FOR"><data key="label">REQUIRED_FOR</data></edge>
+<edge id="e271" source="n307" target="n308" label="REQUIRES"><data key="label">REQUIRES</data></edge>
+<edge id="e272" source="n307" target="n309" label="REQUIRES"><data key="label">REQUIRES</data></edge>
+<edge id="e273" source="n309" target="n310" label="DETERMINES"><data key="label">DETERMINES</data></edge>
+<edge id="e274" source="n309" target="n311" label="GUIDES_TO_ACCOMPLISH"><data key="label">GUIDES_TO_ACCOMPLISH</data></edge>
+<edge id="e275" source="n25" target="n309" label="PROVIDES_INSIGHT_INTO"><data key="label">PROVIDES_INSIGHT_INTO</data></edge>
+<edge id="e276" source="n78" target="n312" label="UNDERSTOOD_BY_ANALYZING"><data key="label">UNDERSTOOD_BY_ANALYZING</data></edge>
+<edge id="e277" source="n78" target="n313" label="DISCUSS"><data key="label">DISCUSS</data></edge>
+<edge id="e278" source="n78" target="n314" label="DISCUSS"><data key="label">DISCUSS</data></edge>
+<edge id="e279" source="n28" target="n13" label="LIMITED_IN"><data key="label">LIMITED_IN</data></edge>
+<edge id="e280" source="n316" target="n28" label="IMPROVE"><data key="label">IMPROVE</data></edge>
+<edge id="e281" source="n317" target="n316" label="PROPOSE"><data key="label">PROPOSE</data></edge>
+<edge id="e282" source="n317" target="n318" label="LEVERAGE"><data key="label">LEVERAGE</data></edge>
+<edge id="e283" source="n317" target="n319" label="LEVERAGE"><data key="label">LEVERAGE</data></edge>
+<edge id="e284" source="n317" target="n87" label="INFER"><data key="label">INFER</data></edge>
+<edge id="e285" source="n317" target="n320" label="HANDLE"><data key="label">HANDLE</data></edge>
+<edge id="e286" source="n317" target="n321" label="HANDLE"><data key="label">HANDLE</data></edge>
+<edge id="e287" source="n321" target="n322" label="INCLUDE"><data key="label">INCLUDE</data></edge>
+<edge id="e288" source="n317" target="n323" label="ASSOCIATED_WITH"><data key="label">ASSOCIATED_WITH</data></edge>
+<edge id="e289" source="n324" target="n114" label="TALK_ABOUT"><data key="label">TALK_ABOUT</data></edge>
+<edge id="e290" source="n325" target="n114" label="GROUNDING_SEMANTICS"><data key="label">GROUNDING_SEMANTICS</data></edge>
+<edge id="e291" source="n326" target="n114" label="EVALUATE_STATEMENTS"><data key="label">EVALUATE_STATEMENTS</data></edge>
+<edge id="e292" source="n324" target="n327" label="ATTRIBUTE_GOALS_AND_BELIEFS"><data key="label">ATTRIBUTE_GOALS_AND_BELIEFS</data></edge>
+<edge id="e293" source="n328" target="n327" label="REQUIRES"><data key="label">REQUIRES</data></edge>
+<edge id="e294" source="n329" target="n114" label="CONTRAST"><data key="label">CONTRAST</data></edge>
+<edge id="e295" source="n330" target="n114" label="CONTRAST"><data key="label">CONTRAST</data></edge>
+<edge id="e296" source="n130" target="n332" label="EMPHASIZES"><data key="label">EMPHASIZES</data></edge>
+<edge id="e297" source="n331" target="n332" label="EMPHASIZES"><data key="label">EMPHASIZES</data></edge>
+<edge id="e298" source="n333" target="n334" label="INVESTS_IN"><data key="label">INVESTS_IN</data></edge>
+<edge id="e299" source="n333" target="n335" label="INVESTS_IN"><data key="label">INVESTS_IN</data></edge>
+<edge id="e300" source="n336" target="n337" label="CONTAINS"><data key="label">CONTAINS</data></edge>
+<edge id="e301" source="n336" target="n338" label="CONTAINS"><data key="label">CONTAINS</data></edge>
+<edge id="e302" source="n337" target="n339" label="DISTINGUISHES"><data key="label">DISTINGUISHES</data></edge>
+<edge id="e303" source="n337" target="n340" label="DISTINGUISHES"><data key="label">DISTINGUISHES</data></edge>
+<edge id="e304" source="n337" target="n341" label="DISTINGUISHES"><data key="label">DISTINGUISHES</data></edge>
+<edge id="e305" source="n342" target="n343" label="CREATES"><data key="label">CREATES</data></edge>
+<edge id="e306" source="n343" target="n344" label="INVOLVES"><data key="label">INVOLVES</data></edge>
+<edge id="e307" source="n343" target="n345" label="INVOLVES"><data key="label">INVOLVES</data></edge>
+<edge id="e308" source="n343" target="n346" label="INCREASES"><data key="label">INCREASES</data></edge>
+<edge id="e309" source="n148" target="n353" label="PROVIDES"><data key="label">PROVIDES</data></edge>
+<edge id="e310" source="n353" target="n347" label="AFFECTS"><data key="label">AFFECTS</data></edge>
+<edge id="e311" source="n351" target="n348" label="USES"><data key="label">USES</data></edge>
+<edge id="e312" source="n348" target="n349" label="MODELS"><data key="label">MODELS</data></edge>
+<edge id="e313" source="n351" target="n350" label="EASES"><data key="label">EASES</data></edge>
+<edge id="e314" source="n351" target="n352" label="IMPROVES"><data key="label">IMPROVES</data></edge>
+<edge id="e315" source="n56" target="n354" label="POSSESS"><data key="label">POSSESS</data></edge>
+<edge id="e316" source="n354" target="n357" label="CONVEY_INFORMATION_TO"><data key="label">CONVEY_INFORMATION_TO</data></edge>
+<edge id="e317" source="n2" target="n356" label="INCORPORATE"><data key="label">INCORPORATE</data></edge>
+<edge id="e318" source="n356" target="n357" label="MODEL_AND_INFER_MENTAL_STATES"><data key="label">MODEL_AND_INFER_MENTAL_STATES</data></edge>
+<edge id="e319" source="n255" target="n357" label="CONSIDER_BELIEF_OF"><data key="label">CONSIDER_BELIEF_OF</data></edge>
+<edge id="e320" source="n358" target="n359" label="DIFFER_FROM"><data key="label">DIFFER_FROM</data></edge>
+<edge id="e321" source="n360" target="n358" label="TRACK_AND_PREDICT"><data key="label">TRACK_AND_PREDICT</data></edge>
+<edge id="e322" source="n361" target="n362" label="TRANSCEND_CLASSIC_KEYFRAME"><data key="label">TRANSCEND_CLASSIC_KEYFRAME</data></edge>
+<edge id="e323" source="n78" target="n13" label="CONTRIBUTES_TO"><data key="label">CONTRIBUTES_TO</data></edge>
+<edge id="e324" source="n377" target="n363" label="DEPENDS_ON"><data key="label">DEPENDS_ON</data></edge>
+<edge id="e325" source="n364" target="n378" label="SUPPORTS"><data key="label">SUPPORTS</data></edge>
+<edge id="e326" source="n364" target="n365" label="REQUIRES"><data key="label">REQUIRES</data></edge>
+<edge id="e327" source="n366" target="n78" label="BRIDGES"><data key="label">BRIDGES</data></edge>
+<edge id="e328" source="n366" target="n364" label="BRIDGES"><data key="label">BRIDGES</data></edge>
+<edge id="e329" source="n366" target="n367" label="INCLUDES"><data key="label">INCLUDES</data></edge>
+<edge id="e330" source="n366" target="n368" label="PRESENTS"><data key="label">PRESENTS</data></edge>
+<edge id="e331" source="n366" target="n369" label="PRESENTS"><data key="label">PRESENTS</data></edge>
+<edge id="e332" source="n366" target="n370" label="PRESENTS"><data key="label">PRESENTS</data></edge>
+<edge id="e333" source="n366" target="n371" label="PRESENTS"><data key="label">PRESENTS</data></edge>
+<edge id="e334" source="n366" target="n372" label="PRESENTS"><data key="label">PRESENTS</data></edge>
+<edge id="e335" source="n372" target="n373" label="DERIVED_FROM"><data key="label">DERIVED_FROM</data></edge>
+<edge id="e336" source="n366" target="n374" label="ASSISTS"><data key="label">ASSISTS</data></edge>
+<edge id="e337" source="n366" target="n375" label="ENABLES_STUDY_OF"><data key="label">ENABLES_STUDY_OF</data></edge>
+<edge id="e338" source="n366" target="n376" label="ENHANCES"><data key="label">ENHANCES</data></edge>
+<edge id="e339" source="n56" target="n12" label="DEVELOP"><data key="label">DEVELOP</data></edge>
+<edge id="e340" source="n379" target="n12" label="UNDERPERFORM"><data key="label">UNDERPERFORM</data></edge>
+<edge id="e341" source="n380" target="n379" label="EVALUATE"><data key="label">EVALUATE</data></edge>
+<edge id="e342" source="n381" target="n379" label="EVALUATE"><data key="label">EVALUATE</data></edge>
+<edge id="e343" source="n382" target="n379" label="ENHANCE"><data key="label">ENHANCE</data></edge>
+<edge id="e344" source="n13" target="n383" label="ASSOCIATED_WITH"><data key="label">ASSOCIATED_WITH</data></edge>
+<edge id="e345" source="n13" target="n384" label="ASSOCIATED_WITH"><data key="label">ASSOCIATED_WITH</data></edge>
+<edge id="e346" source="n385" target="n389" label="ENABLES"><data key="label">ENABLES</data></edge>
+<edge id="e347" source="n385" target="n386" label="UTILIZES"><data key="label">UTILIZES</data></edge>
+<edge id="e348" source="n385" target="n387" label="INVOLVES"><data key="label">INVOLVES</data></edge>
+<edge id="e349" source="n385" target="n388" label="ADJUSTS"><data key="label">ADJUSTS</data></edge>
+<edge id="e350" source="n385" target="n10" label="VALIDATED_BY"><data key="label">VALIDATED_BY</data></edge>
+<edge id="e351" source="n385" target="n390" label="CONTROLS"><data key="label">CONTROLS</data></edge>
+<edge id="e352" source="n385" target="n391" label="CONTROLS"><data key="label">CONTROLS</data></edge>
+<edge id="e353" source="n385" target="n392" label="CONTROLS"><data key="label">CONTROLS</data></edge>
+<edge id="e354" source="n12" target="n393" label="EVALUATION"><data key="label">EVALUATION</data></edge>
+<edge id="e355" source="n393" target="n140" label="REPRESENTATION"><data key="label">REPRESENTATION</data></edge>
+<edge id="e356" source="n394" target="n393" label="INVESTIGATION"><data key="label">INVESTIGATION</data></edge>
+<edge id="e357" source="n203" target="n394" label="IMPROVEMENT"><data key="label">IMPROVEMENT</data></edge>
+<edge id="e358" source="n395" target="n394" label="IMPROVEMENT"><data key="label">IMPROVEMENT</data></edge>
+<edge id="e359" source="n368" target="n394" label="BRITTLENESS"><data key="label">BRITTLENESS</data></edge>
+<edge id="e360" source="n396" target="n397" label="CORRECTION"><data key="label">CORRECTION</data></edge>
+<edge id="e361" source="n13" target="n78" label="HIGHLIGHTS"><data key="label">HIGHLIGHTS</data></edge>
+<edge id="e362" source="n78" target="n398" label="INCLUDES"><data key="label">INCLUDES</data></edge>
+<edge id="e363" source="n78" target="n16" label="INCLUDES"><data key="label">INCLUDES</data></edge>
+<edge id="e364" source="n78" target="n399" label="INCLUDES"><data key="label">INCLUDES</data></edge>
+<edge id="e365" source="n400" target="n78" label="FRAMEWORK_FOR"><data key="label">FRAMEWORK_FOR</data></edge>
+<edge id="e366" source="n400" target="n401" label="DESIGNED_FOR"><data key="label">DESIGNED_FOR</data></edge>
+<edge id="e367" source="n400" target="n402" label="DESIGNED_FOR"><data key="label">DESIGNED_FOR</data></edge>
+<edge id="e368" source="n400" target="n403" label="DESIGNED_FOR"><data key="label">DESIGNED_FOR</data></edge>
+</graph>
+</graphml>
