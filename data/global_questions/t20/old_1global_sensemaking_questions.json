@@ -1,0 +1,26 @@
+[
+  {
+    "persona": "Persona",
+    "task": "It looks like the persona details didn\u2019t come through. Could you please share the user\u2019s background, role, goals, or challenges? With that information, I can craft two targeted tasks they\u2019d want to tackle using corpus insights",
+    "questions": [
+      "To help me understand your perspective, which cross-cutting themes in the AI research corpus\u2014such as methodological innovations, evaluation approaches, or domain applications\u2014resonate most with your current role and objectives, and why?",
+      "Looking across the entire set of papers, what high-level challenges or opportunities (for example around scaling models, ensuring fairness, or integrating AI into existing systems) are you most eager to address in your work, and how might insights on those patterns inform your next steps?"
+    ]
+  },
+  {
+    "persona": "Name: Dr. Lina Chen",
+    "task": "Synthesize and compare the efficacy and safety profiles of the latest experimental protocols (e.g. immunotherapy regimens, gene-editing approaches) reported in the corpus, so she can prioritize the best candidates for her next clinical trial",
+    "questions": [
+      "Across the immunotherapy and gene-editing protocols reported, what broad patterns emerge in the trade-off between clinical efficacy (e.g. response rates, durability) and safety (e.g. incidence/severity of adverse events), and which design features (dosing schedules, targeting strategies, delivery vectors) appear most strongly associated with an optimal balance?",
+      "When grouping experimental regimens by their mechanistic approach (e.g. checkpoint modulation vs. CRISPR-based editing), how do their aggregated outcome profiles compare in terms of long-term patient response consistency, scalability for larger trials, and potential off-target or immunogenic risks\u2014what strategic insights can guide the selection of top candidates for a first-in-human study?"
+    ]
+  },
+  {
+    "persona": "Name: Dr. Lina Chen",
+    "task": "Aggregate and analyze documented adverse-event risk factors and mitigation strategies across related studies, in order to refine patient-selection criteria and build a more robust safety monitoring plan",
+    "questions": [
+      "Across the full set of studies, what recurring categories of patient characteristics or treatment contexts show up most frequently as adverse-event risk factors, and how do these patterns inform a more nuanced stratification of inclusion/exclusion criteria for future trials?",
+      "When you compare the timing, intensity, and mechanisms of the mitigation strategies deployed across multiple papers, what overarching principles emerge for designing a proactive safety-monitoring plan that can be tailored to different risk profiles?"
+    ]
+  }
+]
