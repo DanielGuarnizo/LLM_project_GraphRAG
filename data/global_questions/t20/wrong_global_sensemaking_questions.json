@@ -1,0 +1,34 @@
+[
+  {
+    "persona": "Persona",
+    "task": "Quickly find and review existing knowledge:",
+    "questions": [
+      "Synthesizing across the entire collection, what are the principal theoretical frameworks and methodological approaches that authors use to address this topic, and where do you see major points of consensus or contention?",
+      "Looking at the corpus as a whole, what recurring gaps or underexplored areas emerge in the existing literature, and what promising directions for future research do those gaps suggest?"
+    ]
+  },
+  {
+    "persona": "Persona",
+    "task": "\u2013 Enter keywords or an error code in the search bar, apply filters (e.g. by date, product line, or rating), and open the top-ranked article to get the solution you need",
+    "questions": [
+      "How effectively does the combined use of keyword/error\u2010code search and multi\u2010dimensional filters (date, product line, rating) surface the most comprehensive and up-to-date troubleshooting articles across our entire corpus, and where are the biggest gaps in coverage?",
+      "In what ways could the ranking algorithm be adjusted to better balance article relevance, user ratings, and publication recency\u2014so that users consistently receive the highest-value solutions for diverse product lines and evolving error scenarios?"
+    ]
+  },
+  {
+    "persona": "Name: Carla Nguyen",
+    "task": "Search for and retrieve the precise how-to article or troubleshooting guide she needs (e.g. \u201cHow do I reset my account password?\u201d), filtering by product, date, or relevance",
+    "questions": [
+      "How should the retrieval system leverage metadata\u2014such as product category, publication date, and user feedback\u2014to filter and rank \u201chow-to\u201d articles so that Carla is directed to the single most relevant guide when multiple overlapping solutions exist?",
+      "In a scenario where Carla\u2019s query could apply to several product versions or release dates, what high-level strategy should the system use to balance recency, specificity, and overall relevance across its entire corpus to pinpoint the exact troubleshooting document she needs?"
+    ]
+  },
+  {
+    "persona": "Name: Carla Nguyen",
+    "task": "Submit feedback or suggest an edit on an existing article (flag outdated steps, add missing screenshots or clarify instructions)",
+    "questions": [
+      "In the context of our entire documentation library, which sections of this article feel inconsistent or outdated compared to related guides, and what high-level revisions would you propose to align it with current best practices?",
+      "Looking at the article\u2019s overall structure and flow relative to other entries in the corpus, what broad reorganizations or clarifications would enhance its coherence, usability, and consistency?"
+    ]
+  }
+]

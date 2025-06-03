@@ -1,6 +1,7 @@
 from langchain_community.graphs import Neo4jGraph
 from collections import defaultdict
 from typing import List, Dict
+from src.leaf_level_community_summaries import create_leaf_level_community_summaries
 
 
 class HierarchicalCommunityDetector:
@@ -85,6 +86,16 @@ class HierarchicalCommunityDetector:
 
         self.run_leiden_on_graph(base_projection_name, "C3_CommunityId")
 
+        # prune non useful communities to avoid proliferation in the higher community summaries 
+        non_useful_communities_ids = create_leaf_level_community_summaries(
+            kg=self.kg,
+            kg_db_name=self.kg_db_name
+        )
+        print(non_useful_communities_ids)
+
+        self.remove_c3_community_ids(non_useful_communities_ids=non_useful_communities_ids)
+
+
         # C2 LEVEL
         self.run("""
         MATCH (n)
@@ -104,22 +115,31 @@ class HierarchicalCommunityDetector:
         """)
         self.project_graph("C3_graph", "C3_CommunityNode", "C3_AGG_LINK")
         self.run_leiden_on_graph("C3_graph", "C2_CommunityId")
-
+        self.create_community_nodes_and_edges("C2", "C3")
 
         # C1 LEVEL
-        self.create_community_nodes_and_edges("C2", "C3")
-        self.project_graph("C2_graph", "C2_CommunityNode", "C2_AGG_LINK")
-        self.run_leiden_on_graph("C2_graph", "C1_CommunityId")
+        if self.has_relationships_in_graph("C2_graph"):
+            self.project_graph("C2_graph", "C2_CommunityNode", "C2_AGG_LINK")
+            self.run_leiden_on_graph("C2_graph", "C1_CommunityId")
+            self.create_community_nodes_and_edges("C1", "C2")
+        else:
+            print("\n⚠️ Skipping C1 level: C2_graph has no relationships.")
+            return
 
         # C0 LEVEL
-        self.create_community_nodes_and_edges("C1", "C2")
-        self.project_graph("C1_graph", "C1_CommunityNode", "C1_AGG_LINK")
-        self.run_leiden_on_graph("C1_graph", "C0_CommunityId")
-
+        if self.has_relationships_in_graph("C1_graph"):
+            self.project_graph("C1_graph", "C1_CommunityNode", "C1_AGG_LINK")
+            self.run_leiden_on_graph("C1_graph", "C0_CommunityId")
+            self.create_community_nodes_and_edges("C0", "C1")
+        else:
+            print("\n⚠️ Skipping C0 level: C1_graph has no relationships.")
+            return
 
         # Final GRAPH
-        self.create_community_nodes_and_edges("C0", "C1")
-        self.project_graph("C0_graph", "C0_CommunityNode", "C0_AGG_LINK")
+        if self.has_relationships_in_graph("C0_graph"):
+            self.project_graph("C0_graph", "C0_CommunityNode", "C0_AGG_LINK")
+        else:
+            print("\n⚠️ Skipping final graph: C0_graph has no relationships.")
 
         print("\n✅ Full C3 → C0 community hierarchy generated.")
 
@@ -209,9 +229,42 @@ class HierarchicalCommunityDetector:
                 {"C1_CommunityId": c1_id, "children": c1_to_c2s[c1_id]}
                 for c1_id in c1_to_c2s
             ]
+    
+    
+    def remove_c3_community_ids(
+        self,
+        non_useful_communities_ids: list[int]
+    ):
+        """
+        Removes the C3_CommunityId property from nodes with any of the specified IDs.
+        """
+        if not non_useful_communities_ids:
+            print("⚠️ No community IDs to remove.")
+            return
+
+        # Format the list for Cypher
+        id_list_cypher = ", ".join(map(str, non_useful_communities_ids))
+
+        # Cypher query
+        query = f"""
+        MATCH (n)
+        WHERE n.C3_CommunityId IN [{id_list_cypher}]
+        REMOVE n.C3_CommunityId
+        RETURN count(n) AS nodes_updated
+        """
+
+        result = self.kg.query(query)
+        updated_count = result[0]['nodes_updated'] if result else 0
+        print(f"✅ Removed C3_CommunityId from {updated_count} nodes.")
+
+    def has_relationships_in_graph(self, graph_name: str) -> bool:
+        query = f"""
+        CALL gds.graph.list()
+        YIELD graphName, relationshipCount
+        WHERE graphName = '{graph_name}'
+        RETURN relationshipCount
+        """
+        result = self.kg.query(query)
+        return result and result[0].get("relationshipCount", 0) > 0
 
 
-# Usage example:
-# kg = Neo4jGraph(url=NEO4J_URI, username=NEO4J_USERNAME, password=NEO4J_PASSWORD, database="t20")
-# detector = HierarchicalCommunityDetector(kg=kg, kg_db_name="t20")
-# detector.detect_hierarchical_communities()

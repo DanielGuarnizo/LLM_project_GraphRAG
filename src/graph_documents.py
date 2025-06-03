@@ -3,8 +3,7 @@ import pickle
 from typing import List, Tuple, Union
 from langchain_openai import ChatOpenAI
 from langchain_experimental.graph_transformers import LLMGraphTransformer
-from src.utils.arxiv_utils import fetch_and_split_documents
-from src.utils.fetch_and_split_documents_ftext_utils import fetch_and_split_documents_fulltext
+from src.utils.fetch_and_split_documents import fetch_and_split_documents_fulltext, fetch_and_split_documents
 from src.utils.vectorstore_utils import milvus_ingest_documents
 
 

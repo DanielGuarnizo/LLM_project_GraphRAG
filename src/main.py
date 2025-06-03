@@ -46,11 +46,17 @@ if __name__ == "__main__":
     #     "kg_db_name": "t60improved",
     # }
 
-    t20fulltext_load = {
+    # t20fulltext_load = {
+    #     "mode": "load",
+    #     "kg_db_name": "t20fulltext",
+    # }
+    
+    t20_load = {
         "mode": "load",
-        "kg_db_name": "t20fulltext",
+        "kg_db_name": "t20",
+        "summary_dir":"/Users/danielguarnizo/workspace/Master/LLMs/GraphRAG/data/community_summaries/t20/C3",
     }
 
 
 
-    main(t20fulltext_load)
+    main(t20_load)

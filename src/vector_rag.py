@@ -18,14 +18,29 @@ class VectorRAG(AbstractRAGSystem):
         self.retriever = provide_retriever_to_milvus_db(milvus_db_path=milvus_db_path)
         self.vector_rag_prompt_template = PromptTemplate(
             template="""
-            You are an assistant for question-answering tasks. 
-            Use the following pieces of retrieved context to answer the question. If you don't know the answer, just say that you don't know. 
-            Use three sentences maximum and keep the answer concise:
-            Question: {question} 
-            Context: {context} 
-            Answer: 
+            You are an assistant for question-answering tasks.
+            Use the following retrieved context to answer the question in **Markdown format**. 
+
+            If you don't know the answer, say "I don't know" — do not attempt to make up an answer.
+
+            Be concise and informative. Your answer should:
+            - Use **bullet points**, **code blocks**, or **bold/italic text** where appropriate
+            - Fit within **three sentences maximum**
+            - Present facts clearly and helpfully
+
+            ---
+
+            ### Question:
+            {question}
+
+            ### Context:
+            {context}
+
+            ---
+
+            ### Answer (Markdown):
             """,
-            input_variables=["question", "document"],
+            input_variables=["question", "context"],
         )
     def format_docs(self, docs):
         return "\n\n".join(doc.page_content for doc in docs)

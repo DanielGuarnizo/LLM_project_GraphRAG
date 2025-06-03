@@ -1,0 +1,42 @@
+[
+  {
+    "persona": "AI Research Scientist",
+    "task": "Design scalable multi-agent systems using LLMs",
+    "questions": [
+      "How do the papers in the corpus compare various coordination architectures for multi-agent systems built with LLMs?",
+      "What strategies are most frequently proposed for balancing autonomy and control in LLM-based agents across the corpus?"
+    ]
+  },
+  {
+    "persona": "Machine Learning Engineer",
+    "task": "Optimize prompt engineering techniques for reasoning tasks",
+    "questions": [
+      "Which prompt engineering techniques are shown to most effectively improve multi-step reasoning in LLMs across the corpus?",
+      "How does the use of reflection-based prompting compare to Chain-of-Thought prompting for complex task solving in the documents?"
+    ]
+  },
+  {
+    "persona": "NLP PhD Student",
+    "task": "Survey recent advances in LLM interpretability and alignment",
+    "questions": [
+      "What are the dominant approaches to aligning LLM behavior with user intent discussed in the corpus?",
+      "How do interpretability tools and methods differ in evaluating LLM-generated outputs across different research works?"
+    ]
+  },
+  {
+    "persona": "Tech Policy Analyst",
+    "task": "Assess societal implications of deploying intelligent agents",
+    "questions": [
+      "How do the papers in the corpus frame the risks and ethical challenges of autonomous LLM agents?",
+      "What recommendations are made for responsible governance of multi-agent LLM systems?"
+    ]
+  },
+  {
+    "persona": "LLM Framework Developer",
+    "task": "Benchmark performance of orchestration strategies for agents",
+    "questions": [
+      "What evaluation metrics and benchmarks are used across the corpus to measure agent coordination and task success?",
+      "Which orchestration frameworks or tools are most commonly implemented in the corpus, and how do they perform comparatively?"
+    ]
+  }
+]

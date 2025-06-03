@@ -1,0 +1,5 @@
+{
+  "community_id": "C2_2",
+  "tokens": 261,
+  "summary": "High-Level Summary Report\n\nThe analyzed community is a small, focused conceptual network linking moderation techniques with their ethical implications:\n\n1. Community Composition  \n   - Two core entities:  \n     \u2022 \u201cMethod\u201d (Moderation Techniques)  \n     \u2022 \u201cTopic\u201d (Ethical Considerations)  \n\n2. Relationship Structure  \n   - A single, direct RELATED_TO link connects the Method entity to its associated Ethical Considerations.  \n   - Reflects a tight, one-to-one conceptual pairing rather than a broad or hierarchical map.\n\n3. Key Insights  \n   - Emphasizes the inseparable nature of how moderation is practiced and the moral frameworks that justify it.  \n   - Serves as a concise model for exploring specific technique\u2013ethics pairings without extraneous nodes.\n\nThis streamlined network highlights the importance of examining moderation approaches in light of ethical principles, providing a clear foundation for more detailed or expanded studies."
+}

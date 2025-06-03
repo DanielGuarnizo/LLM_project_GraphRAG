@@ -1,0 +1,32 @@
+{
+  "community_id": "C3_65",
+  "tokens": 261,
+  "summary": {
+    "title": "Moderation Techniques and Ethical Considerations",
+    "summary": "This community consists of two entities\u2014\u2018Method\u2019 (described as Moderation Techniques) and \u2018Topic\u2019 (described as Ethical Considerations)\u2014linked by a single RELATED_TO relationship. The network is minimal, reflecting a conceptual link between a moderation approach and its ethical dimensions.",
+    "rating": 3.5,
+    "rating explanation": "The community\u2019s small size and singular relationship yield low to moderate overall impact due to limited scope.",
+    "findings": [
+      {
+        "summary": "Community comprises two core entities",
+        "explanation": "The community includes exactly two entities: Method and Topic. Their limited number indicates a narrowly scoped community focused on the interplay between a procedural approach and a thematic concern [Data: Entities (195, 200)]."
+      },
+      {
+        "summary": "Entity \u2018Method\u2019 is defined as Moderation Techniques",
+        "explanation": "The first entity in the community, with ID 195, is labeled \u2018Method\u2019 and described specifically as Moderation Techniques. This suggests the entity represents a procedural or technical framework for content moderation [Data: Entities (195)]."
+      },
+      {
+        "summary": "Entity \u2018Topic\u2019 is defined as Ethical Considerations",
+        "explanation": "The second entity, with ID 200, is labeled \u2018Topic\u2019 and described as Ethical Considerations. This indicates a focus on normative or moral aspects associated with the methods under study [Data: Entities (200)]."
+      },
+      {
+        "summary": "A direct relationship connects Method to Ethical Considerations",
+        "explanation": "The two entities are linked by a single relationship (ID 288), in which the source \u2018Method\u2019 is RELATED_TO the target \u2018Topic\u2019. This establishes that the moderation techniques are conceptually associated with ethical considerations [Data: Relationships (288)]."
+      },
+      {
+        "summary": "Network is small and tightly connected",
+        "explanation": "With only two nodes and one edge, the network reflects a high density of connection relative to its size, implying any change to one entity directly impacts the other. Such tight coupling suggests focused analysis but low systemic complexity [Data: Entities (195, 200); Relationships (288)]."
+      }
+    ]
+  }
+}

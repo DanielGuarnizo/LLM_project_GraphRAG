@@ -1,0 +1,32 @@
+{
+  "community_id": "C3_37",
+  "tokens": 169,
+  "summary": {
+    "title": "Collective Intelligence\u2013Wisdom Of Crowds Topic Community",
+    "summary": "This community comprises two topic entities\u2014Collective Intelligence and Wisdom Of Crowds\u2014that are directly connected by a single RELATED_TO relationship, with no additional entities or claims present.",
+    "rating": 1.0,
+    "rating explanation": "The community consists of only two topics linked by one relationship, indicating minimal complexity and impact.",
+    "findings": [
+      {
+        "summary": "Community composition",
+        "explanation": "The community contains exactly two entities: the topic \u201cCollective Intelligence\u201d (ID 119) and the topic \u201cWisdom Of Crowds\u201d (ID 120) [Data: Entities (119); Entities (120)]."
+      },
+      {
+        "summary": "Entity classification",
+        "explanation": "Both records are classified under the same entity type (\u201cTopic\u201d), indicating they belong to a common conceptual category [Data: Entities (119); Entities (120)]."
+      },
+      {
+        "summary": "Shared descriptor value",
+        "explanation": "Each entity entry includes the numeric descriptor \u201c37,\u201d suggesting an identical supplemental attribute across both topics [Data: Entities (119); Entities (120)]."
+      },
+      {
+        "summary": "Primary relationship",
+        "explanation": "There is a single defined relationship between the topics: Collective Intelligence RELATED_TO Wisdom Of Crowds (Relationship ID 193), representing their conceptual linkage [Data: Relationships (193)]."
+      },
+      {
+        "summary": "Limited structural complexity",
+        "explanation": "No additional entities, relationships, or claims are provided beyond the two topic records and the one RELATED_TO link, reflecting a straightforward and minimally populated network structure."
+      }
+    ]
+  }
+}

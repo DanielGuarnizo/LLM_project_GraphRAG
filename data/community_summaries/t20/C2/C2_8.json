@@ -1,0 +1,5 @@
+{
+  "community_id": "C2_8",
+  "tokens": 282,
+  "summary": "High-Level Community Report\n\nThis tightly focused community comprises just two core entities:  \n1. A Topic node representing \u201cVirtual Neural Network\u201d  \n2. A Method node representing \u201cVirtual Neural Network Emulation\u201d  \n\nThey are linked by a single, direct relationship indicating that the emulation method is specifically tailored to the virtual neural network topic. The simplicity of this structure\u2014with both nodes playing central roles\u2014highlights a very narrow yet well\u2010defined research area: applying emulation techniques directly to virtual neural networks."
+}

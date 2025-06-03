@@ -1,0 +1,32 @@
+{
+  "community_id": "C3_39",
+  "tokens": 306,
+  "summary": {
+    "title": "Engineering Education Community: Senior Design Projects",
+    "summary": "This community comprises two academic topics\u2014Senior Design Projects (id 122) and Engineering Education (id 123)\u2014linked by a single RELATED_TO relationship (id 194), indicating that Senior Design Projects is contextually related to the broader field of Engineering Education.",
+    "rating": 2.0,
+    "rating explanation": "A small, tightly scoped community of two academic topics with minimal complexity and no identified compliance or reputational issues.",
+    "findings": [
+      {
+        "summary": "Community Composition: Two core topics",
+        "explanation": "The community consists of exactly two entities: Senior Design Projects (id 122) and Engineering Education (id 123) [Data: Entities (122); Entities (123)].\n\nThis limited set suggests a narrowly defined topical cluster focused on capstone experiences within the engineering curriculum."
+      },
+      {
+        "summary": "Relationship Structure: Single RELATED_TO link",
+        "explanation": "There is one relationship in the community: Senior Design Projects (122) is RELATED_TO Engineering Education (123) [Data: Relationships (194)].\n\nThis reflects a direct thematic linkage, positioning senior design work as an integral component of engineering pedagogical frameworks."
+      },
+      {
+        "summary": "Subject Matter Domain: Academic engineering",
+        "explanation": "Both topics reside firmly within the domain of higher education engineering programs [Data: Entities (122); Entities (123)].\n\nSenior Design Projects typically serve as capstone courses, while Engineering Education covers the methodologies and curricula underpinning engineering instruction."
+      },
+      {
+        "summary": "Community Scale: Minimal entity count",
+        "explanation": "With only two entities and one relationship, the community is extremely small and likely represents a focused subnetwork rather than a broad organizational or institutional group.\n\nSuch a small scale limits complexity but enables clear mapping of topic interdependencies."
+      },
+      {
+        "summary": "Classification consistency: Shared category identifier",
+        "explanation": "Both entities include the descriptor ', 39' in their descriptions, indicating they share a common internal classification tag (category 39) [Data: Entities (122); Entities (123)].\n\nThis suggests they are grouped under the same thematic or administrative classification scheme within the source dataset."
+      }
+    ]
+  }
+}

@@ -48,7 +48,8 @@ class RAGPipeline:
         ).get()
 
         self.graph_rag = GraphRAG(
-            kg_db_name=self.config["kg_db_name"]
+            kg_db_name=self.config["kg_db_name"],
+            summary_dir=self.config['summary_dir']
         ).get()
 
         

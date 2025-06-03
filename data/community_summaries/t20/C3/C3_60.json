@@ -1,0 +1,36 @@
+{
+  "community_id": "C3_60",
+  "tokens": 301,
+  "summary": {
+    "title": "Interrelated Concern Topics: Ethical, Social, and Environmental",
+    "summary": "This community comprises three topic entities\u2014Ethical Concerns, Social Concerns, and Environmental Concerns\u2014all sharing an identical description value of \u201c60.\u201d The Ethical Concerns topic serves as a central node, with direct RELATED_TO relationships to both Social and Environmental Concerns. There are no reciprocal links back to Ethical Concerns and no direct relationship between Social and Environmental Concerns.",
+    "rating": 5.0,
+    "rating explanation": "A small, interconnected set of topic entities yields a moderate impact severity rating.",
+    "findings": [
+      {
+        "summary": "Three core topic entities form the community",
+        "explanation": "The Entities table lists exactly three entities of type Topic: Ethical Concerns (id 128), Social Concerns (id 129), and Environmental Concerns (id 130) [Data: Entities (128,129,130)]."
+      },
+      {
+        "summary": "Uniform description value across all topics",
+        "explanation": "Each of the three topics shares an identical description field value of \u201c60,\u201d suggesting a uniform classification or weighting scheme applied to all concern topics [Data: Entities (128,129,130)]."
+      },
+      {
+        "summary": "Ethical Concerns acts as the central hub",
+        "explanation": "The Relationships table shows that Ethical Concerns (source_id 128) has two outbound RELATED_TO links to Social Concerns (target_id 129) and Environmental Concerns (target_id 130) via relationship ids 195 and 196, making it the sole originator of connections in the network [Data: Relationships (195,196)]."
+      },
+      {
+        "summary": "Absence of reciprocal or directional links back to Ethical Concerns",
+        "explanation": "There are no relationships with source_id 129 or source_id 130 targeting id 128, indicating that connections flow only outward from Ethical Concerns and there are no reciprocal links defined [Data: Relationships (195,196)]."
+      },
+      {
+        "summary": "No direct relationship between Social and Environmental Concerns",
+        "explanation": "The dataset contains no RELATED_TO relationship linking Social Concerns (id 129) and Environmental Concerns (id 130), indicating these two topics are not directly connected outside their shared link to Ethical Concerns [Data: Relationships (195,196)]."
+      },
+      {
+        "summary": "Community exclusively comprised of Topic entities",
+        "explanation": "All entities in this dataset are classified under the \u2018Topic\u2019 entity type (ids 128, 129, 130), with no individual persons or organizations present, highlighting a focused thematic scope [Data: Entities (128,129,130)]."
+      }
+    ]
+  }
+}
