@@ -65,6 +65,7 @@ Several other studies evaluate or characterize distinct coordination topologies,
 - Large-scale, real-world deployments are needed to validate theoretical and small-scale findings.
 
 This synthesis shall guide practitioners and researchers in selecting or innovating coordination architectures tailored to their multi-agent LLM applications.
+```
 
 ### 🧠 Evaluation — Comprehensiveness
 ```json
