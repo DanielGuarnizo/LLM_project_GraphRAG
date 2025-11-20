@@ -6,3 +6,5 @@ neo4j/
 
 # Ignore Python virtual environment
 venv/
+
+.env/
