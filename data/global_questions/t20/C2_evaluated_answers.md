@@ -18,7 +18,7 @@ How do the papers in the corpus compare various coordination architectures for m
 - **Applications and Effectiveness**: These architectures are applied to simulations, like negotiations and games, and to support complex projects such as engineering senior design projects. This is achieved by developing agent personas through advance prompt engineering techniques, resulting in state-of-the-art performance in multidisciplinary cooperation.
 
 ### 🧪 Answer 2 (Graph RAG)
-```markdown
+
 # Comparison of Coordination Architectures in LLM-Based Multi-Agent Systems
 
 ## 1. Overview  

@@ -15,7 +15,7 @@ How do the papers in the corpus compare various coordination architectures for m
 - **Applied Frameworks and Use Cases**: A proposed framework focuses on creating distinct LLM agents with varying expert perspectives (e.g., societal, ethical) to support multidisciplinary projects. This involves implementing coordination, cooperation, and negotiation concepts while utilizing prompt engineering for simulating human team interactions, aligning with the principles of swarm AI and facilitating complex problem-solving tasks in educational settings.
 
 ### 🧪 Answer 2 (Graph RAG)
-```markdown
+
 # Coordination Architectures in LLM-Based Multi-Agent Systems
 
 ## 1. Direct Architectural Comparison  
